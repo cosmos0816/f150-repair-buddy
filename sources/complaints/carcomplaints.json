@@ -1,0 +1,44 @@
+{
+  "source": "carcomplaints",
+  "vehicleScope": "2010-ford-f150-5.4-triton",
+  "accessedAt": "2026-04-11",
+  "overview": {
+    "totalProblems": 1495,
+    "worstComplaintCategories": [
+      "windows / windshield",
+      "transmission",
+      "body / paint"
+    ]
+  },
+  "topComplaintCategories": [
+    { "category": "windows / windshield", "complaintCount": 105, "nhtsaComplaintCount": 105 },
+    { "category": "transmission", "complaintCount": 54, "nhtsaComplaintCount": 18 },
+    { "category": "body / paint", "complaintCount": 44, "nhtsaComplaintCount": 92 },
+    { "category": "engine", "complaintCount": 40, "nhtsaComplaintCount": 171 },
+    { "category": "drivetrain", "complaintCount": 35, "nhtsaComplaintCount": 100 },
+    { "category": "accessories - interior", "complaintCount": 32, "nhtsaComplaintCount": 18 },
+    { "category": "brakes", "complaintCount": 15, "nhtsaComplaintCount": 64 },
+    { "category": "lights", "complaintCount": 15, "nhtsaComplaintCount": 28 },
+    { "category": "AC / heater", "complaintCount": 12, "nhtsaComplaintCount": null },
+    { "category": "electrical", "complaintCount": 8, "nhtsaComplaintCount": 160 }
+  ],
+  "worstProblems": [
+    {
+      "title": "Rear Window Shattered",
+      "category": "windows / windshield",
+      "url": "https://www.carcomplaints.com/Ford/F-150/2010/windows_windshield/rear_window_shattered.shtml"
+    },
+    {
+      "title": "Inconsistent Shifting At Times",
+      "category": "transmission",
+      "averageRepairCost": 4700,
+      "averageMileage": 10000,
+      "url": "https://www.carcomplaints.com/Ford/F-150/2010/transmission/inconsistent_shifting_at_times.shtml"
+    },
+    {
+      "title": "Body / Paint top complaint bucket",
+      "category": "body / paint",
+      "url": "https://www.carcomplaints.com/Ford/F-150/2010/body_paint/"
+    }
+  ]
+}

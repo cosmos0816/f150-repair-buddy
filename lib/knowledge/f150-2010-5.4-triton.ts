@@ -1,0 +1,3 @@
+export {
+  F150_2010_54_TRITON_TRUCK_KNOWLEDGE_BASE as F150_2010_54_TRITON_KNOWLEDGE_BASE,
+} from "@/lib/knowledge/truck";

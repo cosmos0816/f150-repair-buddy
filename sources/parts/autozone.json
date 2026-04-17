@@ -1,0 +1,26 @@
+{
+  "source": "autozone",
+  "vehicleScope": "2010-ford-f150-5.4-triton",
+  "accessedAt": "2026-04-11",
+  "partial": true,
+  "records": [
+    {
+      "partCategory": "Map Light Mini Bulb",
+      "url": "https://www.autozone.com/electrical-and-lighting/map-light-mini-bulb/ford/f150/2010",
+      "brand": "Sylvania Long Life",
+      "partNumber": "194LL",
+      "price": null,
+      "customerRating": null,
+      "availability": "Standard delivery shown in snippet; store pickup depends on location."
+    },
+    {
+      "partCategory": "Map Light Mini Bulb",
+      "url": "https://www.autozone.com/electrical-and-lighting/map-light-mini-bulb/ford/f150/2010",
+      "brand": "Sylvania SilverStar",
+      "partNumber": "194ST",
+      "price": null,
+      "customerRating": null,
+      "availability": "Vehicle-fitment page accessible via search result snippet."
+    }
+  ]
+}

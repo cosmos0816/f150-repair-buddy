@@ -1,0 +1,95 @@
+[
+  {
+    "id": "f150online-fpdm-replacement-409253",
+    "source": "f150online",
+    "accessMethod": "search_snippet",
+    "blockedAtThreadFetch": false,
+    "title": "Fuel Pump Driver Module Replacement",
+    "url": "https://www.f150online.com/forums/articles-how-s/409253-fuel-pump-driver-module-replacement.html",
+    "topic": "fuel_air_metering",
+    "problem": "Technical article thread reminding owners to inspect the frame-mounted electronic fuel controller for corrosion before it fails while driving.",
+    "consensusFix": "Replace the corroded fuel pump driver module with the updated kit that includes stand-off style bolts and inspect the bracket area for rust.",
+    "recommendedParts": [
+      "Fuel pump driver module kit",
+      "Updated stand-off mounting bolts"
+    ],
+    "costNote": "No full repair price shown in the snippet.",
+    "diyConsensus": "diy_with_care",
+    "ownerTips": [
+      "Drop the spare for access where applicable.",
+      "Inspect the bracket and module together, not the controller alone.",
+      "Use the newer hardware that spaces the module away from the bracket."
+    ],
+    "snippetSummary": "Search snippet explicitly called out corrosion on the electronic fuel controller and showed the updated module-and-stand-off-bolt kit."
+  },
+  {
+    "id": "f150online-driver-blend-door-526349",
+    "source": "f150online",
+    "accessMethod": "search_snippet",
+    "blockedAtThreadFetch": false,
+    "title": "Drivers Side Blend Door Actuator",
+    "url": "https://www.f150online.com/forums/2009-2014-f-150/526349-drivers-side-blend-door-actuator.html",
+    "topic": "cabin_controls",
+    "problem": "2010 F-150 owner lost cold air on the driver side only and received wildly different labor quotes for the blend door actuator job.",
+    "consensusFix": "Confirm which actuator has failed before authorizing major labor, because some 2009-2014 driver-side actuator repairs can be reached without full dash removal.",
+    "recommendedParts": [
+      "Driver-side blend door actuator"
+    ],
+    "costNote": "Dealer quotes in the snippet ranged from about 1.5 hours to 8 hours of labor; owner bought the Ford actuator for $46.",
+    "diyConsensus": "mixed",
+    "ownerTips": [
+      "Driver-side-only temperature mismatch is a target clue.",
+      "Actuator location can differ by trim and HVAC configuration.",
+      "Verify access path before accepting an all-day dash-out quote."
+    ],
+    "snippetSummary": "Search snippet showed a 2010 owner comparing 8-hour and 1.5-hour labor quotes and locating the driver-side actuator near the pedal area."
+  },
+  {
+    "id": "f150online-exhaust-manifold-solved-478143",
+    "source": "f150online",
+    "accessMethod": "search_snippet",
+    "blockedAtThreadFetch": false,
+    "title": "5.4 Exhaust Manifold Ticking Knocking Solved",
+    "url": "https://www.f150online.com/forums/exhaust-intake-systems/478143-5-4-exhaust-manifold-ticking-knocking-solved.html",
+    "topic": "exhaust_emissions",
+    "problem": "Passenger-side startup knock on a 5.4 was first mistaken for phasers, but dealer inspection traced it to a warped exhaust manifold and broken hardware.",
+    "consensusFix": "Differentiate manifold leak tick from top-end timing noise, inspect for warped manifolds and broken studs, and expect passenger-side access to be the harder side.",
+    "recommendedParts": [
+      "Exhaust manifold",
+      "Replacement studs and bolts",
+      "Aftermarket manifold or long-tube header alternatives"
+    ],
+    "costNote": "Thread snippet mentioned about $1,200 at a dealer with broken studs, while one DIY reply reported about $220 in Dorman parts.",
+    "diyConsensus": "mixed",
+    "ownerTips": [
+      "Noise that worsens under load but fades when warm can still be exhaust.",
+      "Passenger-side manifolds on these trucks commonly warp or break studs.",
+      "Check for soot and exhaust signature before blaming cam phasers."
+    ],
+    "snippetSummary": "Search snippet contained both dealer diagnosis of a warped passenger manifold and a DIY cost comparison using Dorman hardware."
+  },
+  {
+    "id": "f150online-cam-phaser-oiling-451718",
+    "source": "f150online",
+    "accessMethod": "search_snippet",
+    "blockedAtThreadFetch": false,
+    "title": "5.4 issues. oiling, cam phaser and chain tentioner.",
+    "url": "https://www.f150online.com/forums/v8-engines/451718-5-4-issues-oiling-cam-phaser-chain-tentioner.html",
+    "topic": "timing_valvetrain",
+    "problem": "Owner with repeated rocker and cam damage tied the failure pattern to oiling issues, clogged passages, and phaser/tensioner wear on a high-mileage 5.4 3V.",
+    "consensusFix": "Stay disciplined on oil-change intervals and treat cam-phaser, tensioner, and rocker failures as oil-system cleanliness and timing-system health issues, not just isolated noise parts.",
+    "recommendedParts": [
+      "Timing chain tensioners",
+      "Cam phasers",
+      "Valve-train repair parts as needed"
+    ],
+    "costNote": "No clear cost in the snippet.",
+    "diyConsensus": "inspect_or_shop",
+    "ownerTips": [
+      "Frequent oil service matters on the 3V valvetrain.",
+      "Do not ignore gum or sludge if timing parts have failed once already.",
+      "A repaired head with old oiling problems can fail again."
+    ],
+    "snippetSummary": "Search snippet connected broken rockers and cam damage to clogged oil passages and repeated 5.4 3V timing-oiling concerns."
+  }
+]

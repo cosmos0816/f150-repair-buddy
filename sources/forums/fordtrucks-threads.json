@@ -1,0 +1,99 @@
+[
+  {
+    "id": "fordtrucks-maintenance-schedule-359521",
+    "source": "fordtrucks",
+    "accessMethod": "article_snippet",
+    "blockedAtThreadFetch": false,
+    "title": "Ford F150: Basic Maintenance Schedule",
+    "url": "https://www.ford-trucks.com/how-tos/a/ford-f150-basic-maintenance-schedule-359521",
+    "topic": "maintenance",
+    "problem": "Owners looking for a practical mileage-based service plan for 2004-2014 F-150 trucks.",
+    "consensusFix": "Use the owner’s manual as the baseline and treat routine oil, filter, brake, cooling-system, and tire inspections as the difference between a short-life truck and a 200k+ truck.",
+    "recommendedParts": [
+      "Engine oil",
+      "Oil filter",
+      "Brake inspection items",
+      "Cooling-system service parts"
+    ],
+    "costNote": "No single repair cost; article framed maintenance as avoiding higher downstream cost.",
+    "diyConsensus": "diy_friendly",
+    "ownerTips": [
+      "Most recurring inspections only need basic tools and patience.",
+      "Use mileage-based checks instead of waiting for a failure event.",
+      "Brake, cooling, and fluid inspections deserve the same attention as oil changes."
+    ],
+    "snippetSummary": "Article snippet explicitly tied routine maintenance to truck longevity and listed oil, alignment, brake, and cooling inspections."
+  },
+  {
+    "id": "fordtrucks-undercoating-1709019",
+    "source": "fordtrucks",
+    "accessMethod": "search_snippet",
+    "blockedAtThreadFetch": false,
+    "title": "Undercoating",
+    "url": "https://www.ford-trucks.com/forums/1709019-undercoating.html",
+    "topic": "rust_prevention",
+    "problem": "Owners in salted-road regions debated whether undercoating is worth doing on long-term F-150 ownership.",
+    "consensusFix": "Use wax or oil-based rustproofing if you want extra corrosion protection, but avoid hard shell coatings that can trap rust underneath once they crack or peel.",
+    "recommendedParts": [
+      "Wax/oil-film rustproofing",
+      "Rust encapsulator for existing light surface rust"
+    ],
+    "costNote": "No cost cited in the snippet.",
+    "diyConsensus": "diy_or_shop",
+    "ownerTips": [
+      "Oil- or wax-based treatments are favored over hard coatings.",
+      "Treat light surface rust early before it becomes trapped scale.",
+      "Wheel wells and underbody seams deserve repeat attention in salt states."
+    ],
+    "snippetSummary": "Thread snippet specifically recommended NHOU wax/oil-film style protection and warned against solid undercoating that rusts from the inside out."
+  },
+  {
+    "id": "fordtrucks-synthetic-oil-2010-935104",
+    "source": "fordtrucks",
+    "accessMethod": "search_snippet",
+    "blockedAtThreadFetch": false,
+    "title": "synthetic oils in 2010 F150",
+    "url": "https://www.ford-trucks.com/forums/935104-synthetic-oils-in-2010-f150.html",
+    "topic": "engine_oil",
+    "problem": "New 2010 F-150 owner asked when it is safe to switch a 5.4 to synthetic oil and when the first oil change should happen.",
+    "consensusFix": "Forum consensus stayed conservative: do the first change at the normal recommended interval or around the first scheduled service, then choose your preferred blend or synthetic routine rather than changing immediately at delivery mileage.",
+    "recommendedParts": [
+      "Motorcraft synthetic blend oil",
+      "Oil filter"
+    ],
+    "costNote": "No cost cited in the snippet.",
+    "diyConsensus": "diy_friendly",
+    "ownerTips": [
+      "Do not overreact to a brand-new engine with immediate early oil changes unless you have a reason.",
+      "Use the owner’s manual as the floor for first-service timing.",
+      "Motorcraft blend was repeatedly mentioned as the baseline option."
+    ],
+    "snippetSummary": "Search snippet showed replies ranging from the first recommended interval to 3,000 miles, with Motorcraft semi-synthetic favored as a practical baseline."
+  },
+  {
+    "id": "fordtrucks-150k-preventative-1560912",
+    "source": "fordtrucks",
+    "accessMethod": "search_snippet",
+    "blockedAtThreadFetch": false,
+    "title": "2010 F150 150k Preventative Replacements",
+    "url": "https://www.ford-trucks.com/forums/1560912-2010-f150-150k-preventative-replacements.html",
+    "topic": "high_mileage_maintenance",
+    "problem": "2010 F-150 5.4 4x4 owner asked what should be replaced around 150k miles for reliability without blindly replacing every part.",
+    "consensusFix": "High-mileage owners leaned toward fuel pump, starter, and alternator as realistic proactive replacements around 150k, while water pump and steering pump were usually treated as run-to-symptom items.",
+    "recommendedParts": [
+      "Fuel pump",
+      "Starter motor",
+      "Alternator",
+      "Belts and pulleys",
+      "Hoses"
+    ],
+    "costNote": "No fixed prices in the snippet.",
+    "diyConsensus": "mixed",
+    "ownerTips": [
+      "Separate true wear-history parts from 'replace everything' anxiety.",
+      "Accessory-drive wear items and hoses make sense before long trips.",
+      "Water pumps and steering pumps often give warning before failure."
+    ],
+    "snippetSummary": "Search snippet captured a practical high-mileage replacement discussion from an actual 2010 F-150 5.4 owner at nearly 150k miles."
+  }
+]

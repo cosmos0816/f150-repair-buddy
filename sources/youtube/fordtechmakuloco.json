@@ -1,0 +1,67 @@
+{
+  "source": "fordtechmakuloco",
+  "vehicleScope": "2010-ford-f150-5.4-triton",
+  "accessedAt": "2026-04-11",
+  "partial": true,
+  "blockedAtDirectSearch": true,
+  "notes": "Built from publicly accessible forum/article references to FordTechMakuloco videos after direct YouTube search results were inconsistent in this environment. Use as a starter source file and backfill direct video URLs later where missing.",
+  "records": [
+    {
+      "title": "Ford 4.6L & 5.4L 3V Spark Plug Removal",
+      "videoUrl": null,
+      "citationUrl": "https://www.f150forum.com/f4/5-4l-3v-spark-plug-removal-instructions-235181/",
+      "problemAddressed": "Safe spark plug removal on two-piece 4.6L/5.4L 3V Ford engines.",
+      "procedureSummary": [
+        "Warm the engine before removal.",
+        "Work each plug loose carefully instead of forcing it out.",
+        "Be prepared for broken-plug extraction if one separates."
+      ],
+      "warnings": [
+        "Broken two-piece plugs add labor fast if the safe removal process is skipped."
+      ],
+      "difficulty": "moderate_to_high"
+    },
+    {
+      "title": "Ford 5.4L 3v Triton Engine Tick Tap Diagnosis and Fix!",
+      "videoUrl": null,
+      "citationUrl": "https://www.f150forum.com/f4/04-08-5-4l-3v-spark-plugs-579095/",
+      "problemAddressed": "Separating upper-engine tick/tap concerns from other front-engine noises on the 5.4 3V.",
+      "procedureSummary": [
+        "Listen for the noise source before replacing parts.",
+        "Separate spark-plug, timing, and exhaust-related ticking causes."
+      ],
+      "warnings": [
+        "Do not assume every tick is cam phasers or a belt-driven problem."
+      ],
+      "difficulty": "diagnostic"
+    },
+    {
+      "title": "Ford F-150 5.4L 3v: Passenger Exhaust Manifold Replacement",
+      "videoUrl": "http://www.youtube.com/watch?v=2ZpkvRsNwYQ",
+      "citationUrl": "https://www.ds-metalworks.com/vs/ford-f-150-5-4l-3v-passenger-exhaust-manifold-replacement/",
+      "problemAddressed": "Passenger-side exhaust manifold leak and broken-stud repair context on the 5.4 3V.",
+      "procedureSummary": [
+        "Remove the manifold with attention to broken studs and hardware access.",
+        "Use replacement studs, gaskets, and extractors as needed."
+      ],
+      "warnings": [
+        "Stud extraction difficulty drives labor cost and risk on this job."
+      ],
+      "difficulty": "high"
+    },
+    {
+      "title": "FordTechMakuloco 5.4 3V timing chain replacement series",
+      "videoUrl": null,
+      "citationUrl": "https://www.ford-trucks.com/forums/1541927-f150-5-4-v8-3v-timing-chain-replacement.html",
+      "problemAddressed": "Multi-part timing-chain and cam-phaser teardown/rebuild guidance for the 5.4 3V.",
+      "procedureSummary": [
+        "Front-engine teardown is split across a four-part video series.",
+        "The series is used by owners as pre-job orientation before a full timing repair."
+      ],
+      "warnings": [
+        "This is not a casual DIY job; timing alignment and front-cover removal are major steps."
+      ],
+      "difficulty": "very_high"
+    }
+  ]
+}

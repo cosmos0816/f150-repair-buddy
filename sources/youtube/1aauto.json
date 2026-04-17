@@ -1,0 +1,108 @@
+{
+  "source": "1aauto",
+  "vehicleScope": "2010-ford-f150-5.4-triton",
+  "accessedAt": "2026-04-11",
+  "records": [
+    {
+      "title": "How to Replace Alternator 2009-2010 Ford F-150 5.4L V8",
+      "url": "https://www.1aauto.com/how-to-replace-alternator-2009-2010-ford-f-150-5-4l-v8/video/62628",
+      "problemAddressed": "Charging failure, battery drain, or alternator replacement on the 5.4 truck.",
+      "toolsMentioned": ["13mm socket", "10mm socket", "8mm socket", "ratchet", "breaker bar", "impact gun"],
+      "procedureSummary": [
+        "Disconnect the battery.",
+        "Relieve belt tension and remove the belt from the alternator pulley.",
+        "Remove the alternator fasteners and electrical connections.",
+        "Install the replacement alternator and reassemble."
+      ],
+      "warnings": [
+        "Disconnect battery before working on the charging system.",
+        "Confirm output rating and pulley configuration before ordering."
+      ],
+      "partsUsed": [
+        {
+          "brand": "TRQ",
+          "partNumber": "ALA89343",
+          "notes": "150A, 12VDC alternator shown on the guide page."
+        }
+      ],
+      "difficulty": "moderate"
+    },
+    {
+      "title": "How to Replace Rear Wheel Seals 2009-2011 Ford F-150",
+      "url": "https://www.1aauto.com/how-to-replace-rear-wheel-seals-2009-2011-ford-f-150/video/62532",
+      "problemAddressed": "Rear axle seal leak, bearing/seal service on 2009-2011 F-150 trucks.",
+      "toolsMentioned": ["gear oil", "seal driver", "jack stands", "torque wrench", "drain pan", "brake cleaner"],
+      "procedureSummary": [
+        "Raise and support the truck, then remove the wheel and brake hardware.",
+        "Drain the axle as needed and remove the axle shaft.",
+        "Drive out the old seal and bearing, then install the replacements.",
+        "Reassemble, refill gear oil, and verify leak-free operation."
+      ],
+      "warnings": [
+        "Keep gear oil and brake friction surfaces separated.",
+        "Rear axle work can expand quickly if bearings or shafts are already damaged."
+      ],
+      "partsUsed": [
+        {
+          "brand": "TRQ",
+          "partNumber": "BEA52851",
+          "notes": "Rear wheel seal listed on the guide page."
+        },
+        {
+          "brand": "TRQ",
+          "partNumber": "BHA59030",
+          "notes": "Rear wheel bearing and seal kit listed on the guide page."
+        }
+      ],
+      "difficulty": "moderate_to_advanced"
+    },
+    {
+      "title": "How to Replace Headlight Bulbs 2009-2014 Ford F 150",
+      "url": "https://www.1aauto.com/how-to-replace-headlight-bulbs-2009-2014-ford-f-150/video/62966",
+      "problemAddressed": "Headlight bulb replacement and front lamp access.",
+      "toolsMentioned": ["gloves", "phillips screwdriver", "10mm socket", "ratchet", "trim tool"],
+      "procedureSummary": [
+        "Open access to the headlamp housing.",
+        "Remove the bulb retainer and disconnect the old bulb.",
+        "Install the new bulb without contaminating the glass.",
+        "Recheck beam operation before closing up."
+      ],
+      "warnings": [
+        "Do not touch the bulb glass with bare hands.",
+        "Inspect the socket and connector if the bulb failed early or the housing shows heat damage."
+      ],
+      "partsUsed": [
+        {
+          "brand": "TRQ",
+          "partNumber": null,
+          "notes": "Guide covers replacement bulbs rather than a housing assembly."
+        }
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "title": "How to Replace Outer Tie Rod Ends 2015-2020 Ford F-150",
+      "url": "https://www.1aauto.com/how-to-replace-outer-tie-rod-ends-2015-2020-ford-f-150/video/67714",
+      "problemAddressed": "Outer tie rod replacement; fitment list on the guide includes 2010-2014 F-150 trucks.",
+      "toolsMentioned": ["torque wrench", "rust penetrant", "jack stands", "21mm socket", "24mm wrench", "anti-seize"],
+      "procedureSummary": [
+        "Loosen the outer tie rod end and count turns to preserve approximate alignment.",
+        "Separate the tie rod end from the knuckle.",
+        "Install the replacement and torque to spec.",
+        "Finish with an alignment."
+      ],
+      "warnings": [
+        "Any steering linkage repair needs a follow-up alignment.",
+        "Rusty suspension hardware can turn a simple tie rod job into a cut-off job."
+      ],
+      "partsUsed": [
+        {
+          "brand": "TRQ",
+          "partNumber": null,
+          "notes": "Guide page centers on TRQ outer tie rods."
+        }
+      ],
+      "difficulty": "moderate"
+    }
+  ]
+}

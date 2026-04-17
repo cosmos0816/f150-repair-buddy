@@ -1,0 +1,1955 @@
+{
+  "source": "Ford Blue Advantage Inspection Checklist",
+  "sourceFile": "ford-blue-advantage-inspection-checklist.pdf",
+  "sourceCitation": "Ford Blue Advantage inspection checklist FCPO-INSPECT-20.",
+  "vehicleScope": "2010-ford-f150-5.4-triton",
+  "totalItems": 139,
+  "items": [
+    {
+      "number": 1,
+      "id": "inspection-1",
+      "label": "Service Recalls (OASIS) Performed",
+      "sectionCode": "1",
+      "sectionLabel": "Vehicle History",
+      "system": "history",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 2,
+      "id": "inspection-2",
+      "label": "VIN Inspection",
+      "sectionCode": "2",
+      "sectionLabel": "Road Test",
+      "system": "road_test",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 3,
+      "id": "inspection-3",
+      "label": "Engine Starts and Idles Properly",
+      "sectionCode": "2",
+      "sectionLabel": "Road Test",
+      "system": "road_test",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 4,
+      "id": "inspection-4",
+      "label": "Remote Start System Operation 6C – Cooling System",
+      "sectionCode": "2",
+      "sectionLabel": "Road Test",
+      "system": "road_test",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 5,
+      "id": "inspection-5",
+      "label": "Auto/Manual Transmission/Transaxle Operation",
+      "sectionCode": "2",
+      "sectionLabel": "Road Test",
+      "system": "road_test",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 6,
+      "id": "inspection-6",
+      "label": "Steers Normally (Response, Centering and Free Play)",
+      "sectionCode": "2",
+      "sectionLabel": "Road Test",
+      "system": "road_test",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 7,
+      "id": "inspection-7",
+      "label": "Body and Suspension Squeaks and Rattles",
+      "sectionCode": "2",
+      "sectionLabel": "Road Test",
+      "system": "road_test",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 8,
+      "id": "inspection-8",
+      "label": "Struts/Shocks Operate Properly",
+      "sectionCode": "2",
+      "sectionLabel": "Road Test",
+      "system": "road_test",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 9,
+      "id": "inspection-9",
+      "label": "Convenience = Certifed Used Owner Benefts",
+      "sectionCode": "2",
+      "sectionLabel": "Road Test",
+      "system": "road_test",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 10,
+      "id": "inspection-10",
+      "label": "Cruise Control 4E – Sunroof/Moonroof/Convertible Top",
+      "sectionCode": "2",
+      "sectionLabel": "Road Test",
+      "system": "road_test",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 11,
+      "id": "inspection-11",
+      "label": "Gauges Operate Properly",
+      "sectionCode": "2",
+      "sectionLabel": "Road Test",
+      "system": "road_test",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 12,
+      "id": "inspection-12",
+      "label": "Driver Select/Memory Profle Systems 4F – Windows and Door Locks",
+      "sectionCode": "2",
+      "sectionLabel": "Road Test",
+      "system": "road_test",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 13,
+      "id": "inspection-13",
+      "label": "No Abnormal Wind Noise",
+      "sectionCode": "2",
+      "sectionLabel": "Road Test",
+      "system": "road_test",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 14,
+      "id": "inspection-14",
+      "label": "No Evidence of Flood, Fire, Major or Hail Damage",
+      "sectionCode": "3",
+      "sectionLabel": "Vehicle Exterior",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 15,
+      "id": "inspection-15",
+      "label": "Automatic/Manual Release Mechanisms,",
+      "sectionCode": "3",
+      "sectionLabel": "Vehicle Exterior",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 16,
+      "id": "inspection-16",
+      "label": "Power Liftgate, Power-Sliding Door Operation",
+      "sectionCode": "3",
+      "sectionLabel": "Vehicle Exterior",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 17,
+      "id": "inspection-17",
+      "label": "Deployable Running Boards (If Equipped)",
+      "sectionCode": "3",
+      "sectionLabel": "Vehicle Exterior",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 18,
+      "id": "inspection-18",
+      "label": "Windshield, Side- and Rear-Window Glass Inspection",
+      "sectionCode": "3",
+      "sectionLabel": "Vehicle Exterior",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 19,
+      "id": "inspection-19",
+      "label": "Wiper Blade Replacement Pressure, Tire Inflator Kit (If Equipped) Inspection",
+      "sectionCode": "3",
+      "sectionLabel": "Vehicle Exterior",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 20,
+      "id": "inspection-20",
+      "label": "Exterior Lights (Back/Side/Front/ Trailer Lamp",
+      "sectionCode": "3",
+      "sectionLabel": "Vehicle Exterior",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 21,
+      "id": "inspection-21",
+      "label": "Airbags",
+      "sectionCode": "4A",
+      "sectionLabel": "Airbags and Safety Belts",
+      "system": "safety",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 22,
+      "id": "inspection-22",
+      "label": "Safety Belts",
+      "sectionCode": "4A",
+      "sectionLabel": "Airbags and Safety Belts",
+      "system": "safety",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 23,
+      "id": "inspection-23",
+      "label": "Radio, Radio Antenna, Cassette, CD and Speakers I certify that all mechanical items have been inspected.",
+      "sectionCode": "4B",
+      "sectionLabel": "Audio and Alarm Systems",
+      "system": "interior_electrical",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 24,
+      "id": "inspection-24",
+      "label": "Alarm/Theft-Deterrent System",
+      "sectionCode": "4B",
+      "sectionLabel": "Audio and Alarm Systems",
+      "system": "interior_electrical",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 25,
+      "id": "inspection-25",
+      "label": "Navigation System",
+      "sectionCode": "4B",
+      "sectionLabel": "Audio and Alarm Systems",
+      "system": "interior_electrical",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 26,
+      "id": "inspection-26",
+      "label": "Heating, Ventilation and Air Conditioning System",
+      "sectionCode": "4C",
+      "sectionLabel": "Heat/Vent/AC/Defog/Defrost",
+      "system": "hvac",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 27,
+      "id": "inspection-27",
+      "label": "Defog/Defrost",
+      "sectionCode": "4C",
+      "sectionLabel": "Heat/Vent/AC/Defog/Defrost",
+      "system": "hvac",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 28,
+      "id": "inspection-28",
+      "label": "Tilt/Telescoping Steering Column",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 29,
+      "id": "inspection-29",
+      "label": "Steering Column Lock",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 30,
+      "id": "inspection-30",
+      "label": "Steering Wheel Controls and Horn",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 31,
+      "id": "inspection-31",
+      "label": "Instrument Panel, Clock, Warning Chimes Differential and Transfer Case",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 32,
+      "id": "inspection-32",
+      "label": "Wipers/Washers Joints, CV Joints and CV Joint Boots",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 33,
+      "id": "inspection-33",
+      "label": "Interior Courtesy, Dome and Map Lights",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 34,
+      "id": "inspection-34",
+      "label": "Manual Outside Sideview Mirrors, Power Outside 6B – Engine Universal Joints, CV Joints and CV Joint Boots",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 35,
+      "id": "inspection-35",
+      "label": "BLIS® (Blind Spot Information System)",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 36,
+      "id": "inspection-36",
+      "label": "Rear View Camera",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 37,
+      "id": "inspection-37",
+      "label": "SYNC®/Bluetooth® System",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 38,
+      "id": "inspection-38",
+      "label": "MyFord Touch®/Vehicle Personalization",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 39,
+      "id": "inspection-39",
+      "label": "Active Park Assist (If Equipped)",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 40,
+      "id": "inspection-40",
+      "label": "Rear Entertainment System (If Equipped)",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 41,
+      "id": "inspection-41",
+      "label": "Power Outlets and Lighter Balance Readings (Check If Necessary)",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 42,
+      "id": "inspection-42",
+      "label": "Ashtrays",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 43,
+      "id": "inspection-43",
+      "label": "Glove Box and Center Armrest/Console",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 44,
+      "id": "inspection-44",
+      "label": "Sun Visors, Vanity Mirror and Light",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 45,
+      "id": "inspection-45",
+      "label": "Universal Transmitter (Garage Door Opener)",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 46,
+      "id": "inspection-46",
+      "label": "Adjustable Pedals (If Equipped)",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 47,
+      "id": "inspection-47",
+      "label": "Interior Odor-Free",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 48,
+      "id": "inspection-48",
+      "label": "Seat and Head Restraint Adjustment",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 49,
+      "id": "inspection-49",
+      "label": "Folding Seats 8E – Brakes",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 50,
+      "id": "inspection-50",
+      "label": "Heated Seats/Cooled Seats",
+      "sectionCode": "4D",
+      "sectionLabel": "Interior Amenities",
+      "system": "interior",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 51,
+      "id": "inspection-51",
+      "label": "Sunroof/Moonroof/Convertible Top (If Equipped)",
+      "sectionCode": "4E",
+      "sectionLabel": "Sunroof/Moonroof/Convertible Top",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 52,
+      "id": "inspection-52",
+      "label": "Door Handles and Release Mechanisms",
+      "sectionCode": "4F",
+      "sectionLabel": "Windows and Door Locks",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 53,
+      "id": "inspection-53",
+      "label": "Remote Entry System and Push-Button Start System",
+      "sectionCode": "4F",
+      "sectionLabel": "Windows and Door Locks",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 54,
+      "id": "inspection-54",
+      "label": "Door Locks",
+      "sectionCode": "4F",
+      "sectionLabel": "Windows and Door Locks",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 55,
+      "id": "inspection-55",
+      "label": "Child Safety Locks",
+      "sectionCode": "4F",
+      "sectionLabel": "Windows and Door Locks",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 56,
+      "id": "inspection-56",
+      "label": "Window Controls",
+      "sectionCode": "4F",
+      "sectionLabel": "Windows and Door Locks",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 57,
+      "id": "inspection-57",
+      "label": "Remote Decklid and Fuel-Filler Door Releases",
+      "sectionCode": "4G",
+      "sectionLabel": "Luggage Compartment",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 58,
+      "id": "inspection-58",
+      "label": "Vehicle Jack and Tool Kit",
+      "sectionCode": "4G",
+      "sectionLabel": "Luggage Compartment",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 59,
+      "id": "inspection-59",
+      "label": "Spare Tire Size/Type and Sidewall, Tread Depth, Air",
+      "sectionCode": "4G",
+      "sectionLabel": "Luggage Compartment",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 60,
+      "id": "inspection-60",
+      "label": "Emergency Trunk-Lid Release",
+      "sectionCode": "4G",
+      "sectionLabel": "Luggage Compartment",
+      "system": "body",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 61,
+      "id": "inspection-61",
+      "label": "Perform Self-Test for All CMDTCs",
+      "sectionCode": "5A",
+      "sectionLabel": "Module System Test",
+      "system": "electrical",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 62,
+      "id": "inspection-62",
+      "label": "Engine Oil/Filter Change and Chassis Lube",
+      "sectionCode": "6A",
+      "sectionLabel": "Fluids",
+      "system": "fluids",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 63,
+      "id": "inspection-63",
+      "label": "Coolant",
+      "sectionCode": "6A",
+      "sectionLabel": "Fluids",
+      "system": "fluids",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 64,
+      "id": "inspection-64",
+      "label": "Brake Fluid",
+      "sectionCode": "6A",
+      "sectionLabel": "Fluids",
+      "system": "fluids",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 65,
+      "id": "inspection-65",
+      "label": "Automatic Transaxle/Transmission Fluid",
+      "sectionCode": "6A",
+      "sectionLabel": "Fluids",
+      "system": "fluids",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 66,
+      "id": "inspection-66",
+      "label": "Transfer Case Fluid (If Equipped)",
+      "sectionCode": "6A",
+      "sectionLabel": "Fluids",
+      "system": "fluids",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 67,
+      "id": "inspection-67",
+      "label": "Drive Axle Fluid",
+      "sectionCode": "6A",
+      "sectionLabel": "Fluids",
+      "system": "fluids",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 68,
+      "id": "inspection-68",
+      "label": "Power Steering Fluid 8C – Transmission, Transaxle,",
+      "sectionCode": "6A",
+      "sectionLabel": "Fluids",
+      "system": "fluids",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 69,
+      "id": "inspection-69",
+      "label": "Manual Transaxle/Transmission Hydraulic",
+      "sectionCode": "6A",
+      "sectionLabel": "Fluids",
+      "system": "fluids",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 70,
+      "id": "inspection-70",
+      "label": "Washer Fluid",
+      "sectionCode": "6A",
+      "sectionLabel": "Fluids",
+      "system": "fluids",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 71,
+      "id": "inspection-71",
+      "label": "Fluid Leaks",
+      "sectionCode": "6B",
+      "sectionLabel": "Engine",
+      "system": "engine",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 72,
+      "id": "inspection-72",
+      "label": "Hoses, Lines and Fittings",
+      "sectionCode": "6B",
+      "sectionLabel": "Engine",
+      "system": "engine",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 73,
+      "id": "inspection-73",
+      "label": "Belts Oil Soaked)",
+      "sectionCode": "6B",
+      "sectionLabel": "Engine",
+      "system": "engine",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 74,
+      "id": "inspection-74",
+      "label": "Wiring",
+      "sectionCode": "6B",
+      "sectionLabel": "Engine",
+      "system": "engine",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 75,
+      "id": "inspection-75",
+      "label": "Oil in Air Cleaner Housing 8D – Tires and Wheels",
+      "sectionCode": "6B",
+      "sectionLabel": "Engine",
+      "system": "engine",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 76,
+      "id": "inspection-76",
+      "label": "Water, Sludge or Engine Coolant in Oil",
+      "sectionCode": "6B",
+      "sectionLabel": "Engine",
+      "system": "engine",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 77,
+      "id": "inspection-77",
+      "label": "Oil Pressure",
+      "sectionCode": "6B",
+      "sectionLabel": "Engine",
+      "system": "engine",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 78,
+      "id": "inspection-78",
+      "label": "Relative Cylinder Compression Test/Power",
+      "sectionCode": "6B",
+      "sectionLabel": "Engine",
+      "system": "engine",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 79,
+      "id": "inspection-79",
+      "label": "Timing Belt",
+      "sectionCode": "6B",
+      "sectionLabel": "Engine",
+      "system": "engine",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 80,
+      "id": "inspection-80",
+      "label": "Engine Mounts",
+      "sectionCode": "6B",
+      "sectionLabel": "Engine",
+      "system": "engine",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 81,
+      "id": "inspection-81",
+      "label": "Inspect Turbocharger Air Cooler",
+      "sectionCode": "6B",
+      "sectionLabel": "Engine",
+      "system": "engine",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 82,
+      "id": "inspection-82",
+      "label": "Radiator",
+      "sectionCode": "6C",
+      "sectionLabel": "Cooling System",
+      "system": "cooling",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 83,
+      "id": "inspection-83",
+      "label": "Pressure Test Radiator Cap and Radiator",
+      "sectionCode": "6C",
+      "sectionLabel": "Cooling System",
+      "system": "cooling",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 84,
+      "id": "inspection-84",
+      "label": "Cooling Fans, Clutches and Motors",
+      "sectionCode": "6C",
+      "sectionLabel": "Cooling System",
+      "system": "cooling",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 85,
+      "id": "inspection-85",
+      "label": "Water Pump",
+      "sectionCode": "6C",
+      "sectionLabel": "Cooling System",
+      "system": "cooling",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 86,
+      "id": "inspection-86",
+      "label": "Coolant Recovery Tank",
+      "sectionCode": "6C",
+      "sectionLabel": "Cooling System",
+      "system": "cooling",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 87,
+      "id": "inspection-87",
+      "label": "Cabin Air Filter",
+      "sectionCode": "6C",
+      "sectionLabel": "Cooling System",
+      "system": "cooling",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 88,
+      "id": "inspection-88",
+      "label": "Fuel Pump Noise Normal",
+      "sectionCode": "6D",
+      "sectionLabel": "Fuel System",
+      "system": "fuel",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 89,
+      "id": "inspection-89",
+      "label": "Fuel Pump Pressure",
+      "sectionCode": "6D",
+      "sectionLabel": "Fuel System",
+      "system": "fuel",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 90,
+      "id": "inspection-90",
+      "label": "Fuel Filter",
+      "sectionCode": "6D",
+      "sectionLabel": "Fuel System",
+      "system": "fuel",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 91,
+      "id": "inspection-91",
+      "label": "Engine Air Filter",
+      "sectionCode": "6D",
+      "sectionLabel": "Fuel System",
+      "system": "fuel",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 92,
+      "id": "inspection-92",
+      "label": "Starter Operation",
+      "sectionCode": "6E",
+      "sectionLabel": "Electrical System",
+      "system": "electrical",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 93,
+      "id": "inspection-93",
+      "label": "Ignition System",
+      "sectionCode": "6E",
+      "sectionLabel": "Electrical System",
+      "system": "electrical",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 94,
+      "id": "inspection-94",
+      "label": "Battery",
+      "sectionCode": "6E",
+      "sectionLabel": "Electrical System",
+      "system": "electrical",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 95,
+      "id": "inspection-95",
+      "label": "Alternator Output",
+      "sectionCode": "6E",
+      "sectionLabel": "Electrical System",
+      "system": "electrical",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 96,
+      "id": "inspection-96",
+      "label": "Diesel Glow Plug System",
+      "sectionCode": "6E",
+      "sectionLabel": "Electrical System",
+      "system": "electrical",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 97,
+      "id": "inspection-97",
+      "label": "Hybrid Cooling System",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 98,
+      "id": "inspection-98",
+      "label": "Switchable Powertrain Mount",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 99,
+      "id": "inspection-99",
+      "label": "Hybrid Entertainment and Information Display",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 100,
+      "id": "inspection-100",
+      "label": "Cargo Management System",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 101,
+      "id": "inspection-101",
+      "label": "High-Voltage Thermal System",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 102,
+      "id": "inspection-102",
+      "label": "High-Voltage Service Disconnect",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 103,
+      "id": "inspection-103",
+      "label": "Charging Components Test 1",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 104,
+      "id": "inspection-104",
+      "label": "Charging Components Test 2",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 105,
+      "id": "inspection-105",
+      "label": "Cell Variation Check",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 106,
+      "id": "inspection-106",
+      "label": "DCDC",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 107,
+      "id": "inspection-107",
+      "label": "MyFord® Mobile Reset",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 108,
+      "id": "inspection-108",
+      "label": "Vehicle Instrument Cluster Lifetime Summary I certify that all mechanical and appearance standards have been met.",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 109,
+      "id": "inspection-109",
+      "label": "EV Drive Modes",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 110,
+      "id": "inspection-110",
+      "label": "PHEV Heating System Modes",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 111,
+      "id": "inspection-111",
+      "label": "BEV Heating System Modes",
+      "sectionCode": "7",
+      "sectionLabel": "Hybrid/Electric Vehicles",
+      "system": "hybrid_ev",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 112,
+      "id": "inspection-112",
+      "label": "Frame Damage",
+      "sectionCode": "8A",
+      "sectionLabel": "Frame",
+      "system": "underbody",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 113,
+      "id": "inspection-113",
+      "label": "Fuel Supply System",
+      "sectionCode": "8A",
+      "sectionLabel": "Frame",
+      "system": "underbody",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 114,
+      "id": "inspection-114",
+      "label": "Exhaust System Condition",
+      "sectionCode": "8B",
+      "sectionLabel": "Exhaust System",
+      "system": "exhaust",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 115,
+      "id": "inspection-115",
+      "label": "Emissions Control Test",
+      "sectionCode": "8B",
+      "sectionLabel": "Exhaust System",
+      "system": "exhaust",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 116,
+      "id": "inspection-116",
+      "label": "Automatic Transmission/Transaxle, Universal",
+      "sectionCode": "8C",
+      "sectionLabel": "Transmission, Differential and Transfer Case",
+      "system": "drivetrain",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 117,
+      "id": "inspection-117",
+      "label": "Manual Transmission/Transaxle, Diferential,",
+      "sectionCode": "8C",
+      "sectionLabel": "Transmission, Differential and Transfer Case",
+      "system": "drivetrain",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 118,
+      "id": "inspection-118",
+      "label": "4x4 Hub Operation and Transfer Case",
+      "sectionCode": "8C",
+      "sectionLabel": "Transmission, Differential and Transfer Case",
+      "system": "drivetrain",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 119,
+      "id": "inspection-119",
+      "label": "Transmission Mounts (Not Cracked, Broken or",
+      "sectionCode": "8C",
+      "sectionLabel": "Transmission, Differential and Transfer Case",
+      "system": "drivetrain",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 120,
+      "id": "inspection-120",
+      "label": "Diferential/Drive Axle",
+      "sectionCode": "8C",
+      "sectionLabel": "Transmission, Differential and Transfer Case",
+      "system": "drivetrain",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 121,
+      "id": "inspection-121",
+      "label": "Tires and Wheels Match and Are Correct Size",
+      "sectionCode": "8D",
+      "sectionLabel": "Tires and Wheels",
+      "system": "suspension_brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 122,
+      "id": "inspection-122",
+      "label": "Tire Tread Depth",
+      "sectionCode": "8D",
+      "sectionLabel": "Tires and Wheels",
+      "system": "suspension_brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 123,
+      "id": "inspection-123",
+      "label": "Normal Tire Wear",
+      "sectionCode": "8D",
+      "sectionLabel": "Tires and Wheels",
+      "system": "suspension_brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 124,
+      "id": "inspection-124",
+      "label": "Tire Pressure",
+      "sectionCode": "8D",
+      "sectionLabel": "Tires and Wheels",
+      "system": "suspension_brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 125,
+      "id": "inspection-125",
+      "label": "Tire Pressure Monitoring System",
+      "sectionCode": "8D",
+      "sectionLabel": "Tires and Wheels",
+      "system": "suspension_brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 126,
+      "id": "inspection-126",
+      "label": "Wheels, Wheel Covers and Center Caps",
+      "sectionCode": "8D",
+      "sectionLabel": "Tires and Wheels",
+      "system": "suspension_brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 127,
+      "id": "inspection-127",
+      "label": "Rack-and-Pinion, Linkage and Boots",
+      "sectionCode": "8D",
+      "sectionLabel": "Tires and Wheels",
+      "system": "suspension_brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 128,
+      "id": "inspection-128",
+      "label": "Control Arms, Bushings and Ball Joints",
+      "sectionCode": "8D",
+      "sectionLabel": "Tires and Wheels",
+      "system": "suspension_brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 129,
+      "id": "inspection-129",
+      "label": "Tie-Rods and Idler Arm",
+      "sectionCode": "8D",
+      "sectionLabel": "Tires and Wheels",
+      "system": "suspension_brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 130,
+      "id": "inspection-130",
+      "label": "Sway Bars, Links and Bushings",
+      "sectionCode": "8D",
+      "sectionLabel": "Tires and Wheels",
+      "system": "suspension_brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 131,
+      "id": "inspection-131",
+      "label": "Calipers and Wheel Cylinders",
+      "sectionCode": "8E",
+      "sectionLabel": "Brakes",
+      "system": "brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 132,
+      "id": "inspection-132",
+      "label": "Brake Pads and Shoes",
+      "sectionCode": "8E",
+      "sectionLabel": "Brakes",
+      "system": "brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 133,
+      "id": "inspection-133",
+      "label": "Rotors and Drums",
+      "sectionCode": "8E",
+      "sectionLabel": "Brakes",
+      "system": "brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 134,
+      "id": "inspection-134",
+      "label": "Brake Lines, Hoses and Fittings",
+      "sectionCode": "8E",
+      "sectionLabel": "Brakes",
+      "system": "brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 135,
+      "id": "inspection-135",
+      "label": "Parking Brake",
+      "sectionCode": "8E",
+      "sectionLabel": "Brakes",
+      "system": "brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 136,
+      "id": "inspection-136",
+      "label": "Master Cylinder and Booster",
+      "sectionCode": "8E",
+      "sectionLabel": "Brakes",
+      "system": "brakes",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 137,
+      "id": "inspection-137",
+      "label": "Owner’s Manual",
+      "sectionCode": "9",
+      "sectionLabel": "Convenience / Certified Used Owner Benefits",
+      "system": "delivery_items",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 138,
+      "id": "inspection-138",
+      "label": "Keys and Remote Controls",
+      "sectionCode": "9",
+      "sectionLabel": "Convenience / Certified Used Owner Benefits",
+      "system": "delivery_items",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    },
+    {
+      "number": 139,
+      "id": "inspection-139",
+      "label": "Full Fuel Level",
+      "sectionCode": "9",
+      "sectionLabel": "Convenience / Certified Used Owner Benefits",
+      "system": "delivery_items",
+      "passFailStates": [
+        "Passed",
+        "Repaired",
+        "Replaced",
+        "N/A"
+      ]
+    }
+  ]
+}

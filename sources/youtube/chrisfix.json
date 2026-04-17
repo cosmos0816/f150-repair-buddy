@@ -1,0 +1,64 @@
+{
+  "source": "chrisfix-related",
+  "vehicleScope": "2010-ford-f150-5.4-triton",
+  "accessedAt": "2026-04-11",
+  "records": [
+    {
+      "title": "How to Repair Rust on Your Car Without Welding (No Special Tools Needed)",
+      "url": "https://www.classcentral.com/course/youtube-how-to-repair-rust-on-your-car-without-welding-no-special-tools-needed-170975",
+      "problemAddressed": "Body rust around wheel wells, rocker areas, and other sheet-metal trouble spots.",
+      "toolsMentioned": ["grinder", "wire wheel", "body filler", "sandpaper", "primer", "paint"],
+      "procedureSummary": [
+        "Grind back the visible rust and loose paint.",
+        "Treat remaining corrosion and rebuild the damaged area with filler.",
+        "Sand, prime, and repaint to seal the repair."
+      ],
+      "warnings": [
+        "This is appropriate for body rust, not structural frame loss.",
+        "Rust will return if active corrosion is trapped under filler or paint."
+      ],
+      "partsUsed": [],
+      "difficulty": "moderate"
+    },
+    {
+      "title": "Brake pad replacement with ChrisFix and NRS Brakes",
+      "url": "https://www.fleetmaintenance.com/videos/video/21204514/nrs-brakes-video-brake-pad-replacement-with-chrisfix-and-nrs-brakes",
+      "problemAddressed": "Brake pad service and corrosion-resistant pad selection.",
+      "toolsMentioned": ["basic brake service tools"],
+      "procedureSummary": [
+        "Inspect pad thickness and rotor condition.",
+        "Replace worn pads and service the contact hardware.",
+        "Favor rust-resistant pad backing hardware for longer service life."
+      ],
+      "warnings": [
+        "Brake work is safety-critical; do not skip slide and hardware inspection.",
+        "Truck braking performance changes quickly with towing or oversized tires."
+      ],
+      "partsUsed": [
+        {
+          "brand": "NRS Brakes",
+          "partNumber": null,
+          "notes": "Source article focused on galvanized brake pads to resist rust."
+        }
+      ],
+      "difficulty": "moderate"
+    },
+    {
+      "title": "ChrisFix sway bar bushing diagnostic reference",
+      "url": "https://www.gswautoparts.com/how-to-change-sway-bar-bushings/",
+      "problemAddressed": "Suspension clunk diagnosis around sway bar bushings and brackets.",
+      "toolsMentioned": ["hand tools for bushing bracket service"],
+      "procedureSummary": [
+        "Shake-test the sway bar near the bushing with the truck safely supported.",
+        "Inspect for cracking, looseness, or bushing size mismatch.",
+        "Replace worn bushings and hardware as needed."
+      ],
+      "warnings": [
+        "Do not confuse sway bar clunk with ball-joint or control-arm play without inspection.",
+        "Wrong inner diameter or low-grade rubber causes repeat failures."
+      ],
+      "partsUsed": [],
+      "difficulty": "easy_to_moderate"
+    }
+  ]
+}

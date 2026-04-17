@@ -1,0 +1,40 @@
+{
+  "source": "americantrucks",
+  "vehicleScope": "2010-ford-f150-5.4-triton",
+  "accessedAt": "2026-04-11",
+  "records": [
+    {
+      "title": "Everything You Need to Know About F-150 Brake Rotors & Pads",
+      "url": "https://www.americantrucks.com/shopram2500/f150-brake-rotors-pads-explained.html",
+      "system": "brakes",
+      "compatibilityNote": "Guide covers 2009-2014 trucks and calls out the 2010-up brake sizing change in the twelfth generation.",
+      "installationDifficulty": "moderate",
+      "buyerNotes": [
+        "Bigger tires and heavy hauling raise braking demands quickly.",
+        "Rotor and pad material choice should reflect heat load, not only appearance."
+      ]
+    },
+    {
+      "title": "Ford F-150 Side Steps & Running Boards: Mistakes to Avoid",
+      "url": "https://www.americantrucks.com/f150-side-steps-running-boards-mistakes.html",
+      "system": "body",
+      "compatibilityNote": "General F-150 guidance that still applies to 2010 crew/super cab fitment decisions.",
+      "installationDifficulty": "easy_to_moderate",
+      "buyerNotes": [
+        "Step width, mounting position, and ground-clearance tradeoffs matter more than looks alone.",
+        "Do not drill or commit to brackets until future accessory interference is understood."
+      ]
+    },
+    {
+      "title": "Ford F-150 Bed Liners & Bed Mats",
+      "url": "https://www.americantrucks.com/f150-parts--accessories2/f150-bed-weights-liners.html",
+      "system": "body",
+      "compatibilityNote": "Fitment list explicitly includes 2010 F-150 with the 5.4 V8.",
+      "installationDifficulty": "easy",
+      "buyerNotes": [
+        "Drop-in or rubberized liners reduce cargo movement and paint damage.",
+        "Drainage and tie-down compatibility matter for working trucks."
+      ]
+    }
+  ]
+}

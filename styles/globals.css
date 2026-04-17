@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  --background: #121516;
+  --foreground: #f1ece2;
+  --panel: #1a1f20;
+  --panel-strong: #202627;
+  --border: #374042;
+  --muted: #9da39a;
+  --accent: #1f7ae0;
+  --accent-strong: #4ea3ff;
+  --success: #6fa46a;
+  --warning: #d8ab4d;
+  --danger: #c9604d;
+  --font-body: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  --font-display: "DIN Condensed", "Arial Narrow", "Franklin Gothic Condensed", sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-panel: var(--panel);
+  --color-panel-strong: var(--panel-strong);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  background: var(--background);
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  background: linear-gradient(180deg, #111416 0%, #14191a 100%);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: rgb(240 191 99 / 0.3);
+}

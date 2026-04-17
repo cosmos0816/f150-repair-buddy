@@ -1,0 +1,52 @@
+{
+  "source": "repairpal",
+  "vehicleScope": "2010-ford-f150-5.4-triton",
+  "accessedAt": "2026-04-11",
+  "records": [
+    {
+      "repairName": "Alternator Replacement",
+      "url": "https://repairpal.com/estimator/ford/f-150/2010/alternator-replacement-cost",
+      "laborCostRange": [134, 197],
+      "partsCostRange": [406, 484],
+      "totalCostRange": [540, 680],
+      "timeEstimate": "moderate",
+      "frequency": "common charging repair"
+    },
+    {
+      "repairName": "Spark Plug Replacement",
+      "url": "https://repairpal.com/estimator/ford/f-150/2010/spark-plug-replacement-cost",
+      "laborCostRange": [207, 304],
+      "partsCostRange": [120, 120],
+      "totalCostRange": [328, 425],
+      "timeEstimate": "moderate_to_high on 5.4 3V",
+      "frequency": "common ignition maintenance"
+    },
+    {
+      "repairName": "Water Pump Replacement",
+      "url": "https://repairpal.com/estimator/ford/f-150/water-pump-replacement-cost",
+      "laborCostRange": [254, 373],
+      "partsCostRange": [613, 625],
+      "totalCostRange": [867, 998],
+      "timeEstimate": "moderate",
+      "frequency": "common cooling repair"
+    },
+    {
+      "repairName": "Battery Replacement",
+      "url": "https://repairpal.com/estimator/ford/f-150/2010/battery-replacement-cost",
+      "laborCostRange": [37, 54],
+      "partsCostRange": [210, 210],
+      "totalCostRange": [247, 264],
+      "timeEstimate": "low",
+      "frequency": "common wear item"
+    },
+    {
+      "repairName": "Brake Bleed",
+      "url": "https://repairpal.com/estimator/ford/f-150/2010/brake-bleed-cost",
+      "laborCostRange": [61, 90],
+      "partsCostRange": [0, 0],
+      "totalCostRange": [61, 90],
+      "timeEstimate": "low",
+      "frequency": "maintenance or follow-up repair service"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source": "oreilly",
+  "vehicleScope": "2010-ford-f150-5.4-triton",
+  "accessedAt": "2026-04-11",
+  "partial": true,
+  "blockedAtDirectFetch": true,
+  "records": [
+    {
+      "partCategory": "Ignition Coil",
+      "url": "https://www.oreillyauto.com/shop/b/ignition---tune-up/ignition-coil/bcbc445c20d7/v/a/130180/automotive-car-2010-ford-f-150",
+      "brand": "Ultima Technologies",
+      "partNumber": "IGN009-8",
+      "price": null,
+      "customerRating": null,
+      "availability": "Search result snippet showed product listing; direct page fetch was access-denied."
+    },
+    {
+      "partCategory": "Ignition Coil",
+      "url": "https://www.oreillyauto.com/shop/b/ignition---tune-up/ignition-coil/bcbc445c20d7/v/a/130180/automotive-car-2010-ford-f-150",
+      "brand": "Ultima Technologies",
+      "partNumber": "IGN012-8",
+      "price": null,
+      "customerRating": null,
+      "availability": "Search result snippet showed the coil-set family and category filters, but not price."
+    }
+  ]
+}

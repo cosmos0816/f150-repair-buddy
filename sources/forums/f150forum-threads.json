@@ -1,0 +1,98 @@
+[
+  {
+    "id": "f150forum-fpdm-corrosion-200179",
+    "source": "f150forum",
+    "accessMethod": "search_snippet_only",
+    "blockedAtThreadFetch": true,
+    "title": "fuel pump driver module",
+    "url": "https://www.f150forum.com/f4/fuel-pump-driver-module-200179/",
+    "topic": "fuel_air_metering",
+    "problem": "Owner thread focused on repeated fuel pump driver module failure and whether Dorman or Ford replacement is the better choice.",
+    "consensusFix": "Replace the module before it strands the truck, prefer the updated stand-off style module or a Ford/OEM unit, and protect the mount area from future corrosion.",
+    "recommendedParts": [
+      "Fuel pump driver module",
+      "Stand-off mounting hardware",
+      "Rustproofing or undercoating spray"
+    ],
+    "costNote": "Ford dealer price mentioned around $70; Dorman replacement reported as working with stand-off boots.",
+    "diyConsensus": "diy_with_care",
+    "ownerTips": [
+      "Inspect the frame-mounted module before no-start symptoms get worse.",
+      "Use stand-offs or isolators so the module is not trapped against the corroding bracket.",
+      "Coat the area after replacement to slow repeat corrosion."
+    ],
+    "snippetSummary": "Search snippet showed multiple replies recommending either OEM/Ford or Dorman replacement, plus undercoating and stand-off hardware to keep the module off the crossmember."
+  },
+  {
+    "id": "f150forum-spark-plug-08-design-213513",
+    "source": "f150forum",
+    "accessMethod": "search_snippet_only",
+    "blockedAtThreadFetch": true,
+    "title": "5.4 3V Head Design - 08+ Spark Plugs",
+    "url": "https://www.f150forum.com/f4/5-4-3v-head-design-08-spark-plugs-213513/",
+    "topic": "ignition",
+    "problem": "Late-build 5.4 3V owners were trying to confirm whether the revised 2008-style heads and plugs reduced the broken spark plug problem and which plug to use.",
+    "consensusFix": "Verify engine build date, treat late-2007/2008 hardware as revised, and use the correct Motorcraft replacement plug instead of guessing by internet folklore.",
+    "recommendedParts": [
+      "Motorcraft SP-509 spark plugs",
+      "Correct coil boots for late 3V applications"
+    ],
+    "costNote": "No repair bill cited in the snippet; thread centered on avoiding a costly plug extraction mistake.",
+    "diyConsensus": "diy_with_care",
+    "ownerTips": [
+      "Check the engine build date before ordering plugs.",
+      "Do not assume every 5.4 3V uses the older two-piece plug design.",
+      "Use the correct plug family and boot color for the revised head."
+    ],
+    "snippetSummary": "Search snippet captured the late-build owner trying to separate the early broken-plug issue from the revised 08+ head and plug setup."
+  },
+  {
+    "id": "f150forum-cam-phaser-left-right-413753",
+    "source": "f150forum",
+    "accessMethod": "search_snippet_only",
+    "blockedAtThreadFetch": true,
+    "title": "Cam Phaser Difference? Left & Right",
+    "url": "https://www.f150forum.com/f4/cam-phaser-difference-left-right-413753/",
+    "topic": "timing_valvetrain",
+    "problem": "Owner opened a 5.4 3V timing set after codes and broken guides, then found suspicious left/right phaser and tensioner orientation from a prior repair.",
+    "consensusFix": "When timing hardware has been apart before, replace the full timing kit and verify phaser, guide, and tensioner orientation instead of replacing one noisy part in isolation.",
+    "recommendedParts": [
+      "Complete timing kit",
+      "Cam phasers",
+      "Timing guides",
+      "Timing chain tensioners"
+    ],
+    "costNote": "No price in the snippet; repair scope implied full timing-service parts rather than a single component.",
+    "diyConsensus": "shop_or_advanced_diy",
+    "ownerTips": [
+      "A broken guide plus reused phasers is not a stable repair.",
+      "Mark bank orientation carefully before assembly.",
+      "Do not trust prior owner timing work without verifying component placement."
+    ],
+    "snippetSummary": "Search snippet described a broken guide and phasers/tensioners apparently swapped side-to-side, pointing owners toward a full timing-system correction."
+  },
+  {
+    "id": "f150forum-power-steering-23955",
+    "source": "f150forum",
+    "accessMethod": "search_snippet_only",
+    "blockedAtThreadFetch": true,
+    "title": "Power steering...",
+    "url": "https://www.f150forum.com/f4/power-steering-23955/",
+    "topic": "charging_accessory_noise",
+    "problem": "Owner heard a growing steering-area noise that changed with road speed but not with steering input at idle, making it unclear whether the pump was actually at fault.",
+    "consensusFix": "Separate steering-load noise from road-speed or accessory-bearing noise before replacing the pump, because alternator or pulley bearings can mimic steering complaints.",
+    "recommendedParts": [
+      "Power steering fluid",
+      "Power steering pump",
+      "Accessory drive pulley or bearing as needed"
+    ],
+    "costNote": "No cost cited in the snippet.",
+    "diyConsensus": "inspect_first",
+    "ownerTips": [
+      "If the sound does not change with steering input, the pump may be innocent.",
+      "Use a stethoscope or belt-off isolation before buying parts.",
+      "Road-speed-sensitive whine deserves accessory-drive cross-checks."
+    ],
+    "snippetSummary": "Search snippet showed a steering-noise complaint whose behavior suggested accessory-drive diagnosis before pump replacement."
+  }
+]

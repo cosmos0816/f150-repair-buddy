@@ -1,0 +1,40 @@
+{
+  "source": "realtruck",
+  "vehicleScope": "2010-ford-f150-5.4-triton",
+  "accessedAt": "2026-04-11",
+  "records": [
+    {
+      "title": "Best Tonneau Covers for Ford F-150",
+      "url": "https://realtruck.com/blog/best-tonneau-covers-for-ford-f-150/",
+      "system": "body",
+      "compatibilityNote": "Buyer guide focused on F-150 bed-cover types, security, and install tradeoffs.",
+      "installationDifficulty": "easy_to_moderate",
+      "buyerNotes": [
+        "Soft roll-up covers start around $200 and prioritize budget plus full bed access.",
+        "Hard folding and hard rolling styles trade higher price for security and weather resistance."
+      ]
+    },
+    {
+      "title": "The Best F-150 Running Boards",
+      "url": "https://realtruck.com/blog/best-ford-f150-running-boards/",
+      "system": "body",
+      "compatibilityNote": "F-150 running-board guide with brand examples and category breakdowns.",
+      "installationDifficulty": "easy_to_moderate",
+      "buyerNotes": [
+        "Running boards help cab access and reduce dirt transfer into the cabin.",
+        "Power steps add convenience but raise cost and complexity versus fixed boards."
+      ]
+    },
+    {
+      "title": "Best-Selling Ford F-150 Accessories",
+      "url": "https://realtruck.com/best-selling-ford-f-150-accessories/",
+      "system": "body",
+      "compatibilityNote": "Sales-driven guide highlighting the most common F-150 accessory families.",
+      "installationDifficulty": "varies",
+      "buyerNotes": [
+        "Recurring top sellers include tonneau covers, running boards, bed liners, and wheel/tire packages.",
+        "Popular categories are useful signals for owner priorities, not proof of necessity."
+      ]
+    }
+  ]
+}

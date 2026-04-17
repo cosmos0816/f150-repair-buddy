@@ -1,0 +1,1797 @@
+[
+  {
+    "nhtsaId": "11005305",
+    "replacementBulletinNumber": "",
+    "addedDate": "2024-07-29",
+    "tsbDocumentId": "TSB 24-2188",
+    "manufacturerCommunicationDate": "2024-07-24",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "WHEELS"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "This article supersedes TSB 22-2219 to update the Parts List and Service Procedure to clarify applicable steps by vehicle application. Some 2003-2020 Expedition/Navigator and 2006-2020 F-150 (non-Raptor) vehicles equipped with 4WD may exhibit grinding/clicking/ratcheting noise from the front wheel area. This may be due to partial engagement of the integrated wheel ends (IWE). To correct this condition, follow the Service Procedure to remove and cap the vacuum supply line or to reprogram the transfer case control module (TCCM) and replace any worn vacuum and/or IWE components."
+  },
+  {
+    "nhtsaId": "10254138",
+    "replacementBulletinNumber": "",
+    "addedDate": "2024-05-03",
+    "tsbDocumentId": "SSM 52476",
+    "manufacturerCommunicationDate": "2024-04-24",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "EQUIPMENT"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "All accessory stick-on keyless entry keypads come with a wallet card containing the master code. If the accessory keypad was factory installed, this card will be placed in the glove box and should be handed to the vehicle\u001as owner during initial delivery. Unlike the integrated (wired) factory keypad, the accessory keypad master code cannot be retrieved from the vehicle using a diagnostic scan tool. If the wallet card for an accessory keypad is lost, follow these steps to recover the code. Dealer Key Code access is granted through the Dealer Program Enrollment System (DPES); dealership management can authorize users. The authorized user must go to FMCDealer.com > Parts and Service > Parts Product Line Information > Keys/Entry Devices > Aftermarket Keyless Entry Keypad Code Access. Follow the instructions on the screen to obtain the master code for the accessory keypad."
+  },
+  {
+    "nhtsaId": "10235153",
+    "replacementBulletinNumber": "",
+    "addedDate": "2023-05-04",
+    "tsbDocumentId": "SSM 51536",
+    "manufacturerCommunicationDate": "2023-04-04",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "STRUCTURE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "For 2000-2024 Ford and Lincoln vehicles, swapping a module from a vehicle for diagnosis purposes is likely to cause errors and is not recommended. It is also not recommended to order a replacement module using a vehicle identification number (VIN) from a different vehicle. Most modules on these affected vehicles are VIN/vehicle specific and hardware variations between modules do exist. Swapping a module from a vehicle or ordering a module using a different vehicle/VIN can cause ineffective repairs and additional vehicle down time. Make sure all appropriate Workshop Manual (WSM) procedures are followed when diagnosing the condition prior to all module replacements and only order modules using the correct VIN."
+  },
+  {
+    "nhtsaId": "10214754",
+    "replacementBulletinNumber": "",
+    "addedDate": "2022-06-27",
+    "tsbDocumentId": "TSB 22-2219",
+    "manufacturerCommunicationDate": "2022-06-21",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "Some 2003-2020 Expedition/Navigator and 2006-2020 F-150 (non-Raptor) vehicles equipped with 4WD may exhibit grinding/clicking/ratcheting noise from the front wheel area. This may be due to partial engagement of the integrated wheel ends (IWE). To correct this condition, follow the Service Procedure to remove and cap the vacuum supply line or to reprogram the transfer case control module (TCCM) and replace any worn vacuum and/or IWE components."
+  },
+  {
+    "nhtsaId": "10204989",
+    "replacementBulletinNumber": "",
+    "addedDate": "2021-12-20",
+    "tsbDocumentId": "Service Informat",
+    "manufacturerCommunicationDate": "2016-04-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "EQUIPMENT"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "Online automotive service information system for April 2016-AM/FM/CD or sync with a 4.2 inch screen may exhibit a blank screen and no a;udio after a crank event."
+  },
+  {
+    "nhtsaId": "10204997",
+    "replacementBulletinNumber": "",
+    "addedDate": "2021-12-20",
+    "tsbDocumentId": "TSB160032",
+    "manufacturerCommunicationDate": "2016-03-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "4R75E Transmission - Grinding/Whine/Vibration/Gear Slippage - Serrvice Kit available"
+  },
+  {
+    "nhtsaId": "10181917",
+    "replacementBulletinNumber": "",
+    "addedDate": "2020-11-05",
+    "tsbDocumentId": "TSB 20-2307",
+    "manufacturerCommunicationDate": "2020-10-16",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "EQUIPMENT",
+      "ELECTRICAL SYSTEM",
+      "WHEELS"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "Some 2003-2020 Expedition/Navigator and 2006-2020 F-150 vehicles equipped with TOD transfer cases may exhibit grinding/clicking/ratcheting noise from the front wheel area. This may be due to partial engagement of the integrated wheel ends (IWE). To correct this condition, follow the Service Procedure steps to remove and cap the vacuum supply line."
+  },
+  {
+    "nhtsaId": "10177863",
+    "replacementBulletinNumber": "",
+    "addedDate": "2020-08-06",
+    "tsbDocumentId": "TSB 20-2233",
+    "manufacturerCommunicationDate": "2020-07-13",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "STRUCTURE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "This article supersedes TSB 19-2026 to update the vehicle model years affected. Some 2000 and newer Ford/Lincoln/Mercury vehicles equipped with aluminum body panels may exhibit corrosion concerns appearing as bubbled and/or peeling paint with or without accompanying white dust. Panel replacement is recommended."
+  },
+  {
+    "nhtsaId": "10172885",
+    "replacementBulletinNumber": "",
+    "addedDate": "2020-03-30",
+    "tsbDocumentId": "DOR-N3Z7B-03",
+    "manufacturerCommunicationDate": "2020-02-07",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ENGINE AND ENGINE COOLING"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "This SKU is an Oil Dipstick. The customer communication requested return of unsold inventory to inspect the dipstick tube. The dipstick tube inner diameter may be small enough that it prevents installation of the OE dipstick."
+  },
+  {
+    "nhtsaId": "10164508",
+    "replacementBulletinNumber": "",
+    "addedDate": "2019-09-06",
+    "tsbDocumentId": "SSM 48130",
+    "manufacturerCommunicationDate": "2019-08-09",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "VISIBILITY:GLASS",
+      "SIDE/REAR",
+      "VISIBILITY"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "Some 2010-2020 vehicles may exhibit distorted glass with a subtle orange peel pattern or streaking etched into the surface. This is caused by hydrofluoric acid which is used in some car wash solutions as a cleaning agent. Hydrofluoric acid can attack the glass and cause visual distortion and/or discoloration on the outer surface which cannot be removed by further cleaning. If this type of distortion is found, inspect the area of the glass that is covered by the cowl and/or molding. The portion of glass that is covered by the cowl or molding will not be affected by the acid. Hydrofluoric acid damage is not a defect in material or workmanship and is not a warrantable condition."
+  },
+  {
+    "nhtsaId": "10163573",
+    "replacementBulletinNumber": "",
+    "addedDate": "2019-08-07",
+    "tsbDocumentId": "SSM 48070",
+    "manufacturerCommunicationDate": "2019-07-02",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "EQUIPMENT:APPLIANCE:AIR CONDITIONER"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "Some 2009-2017 Expedition/Navigator, 2009-2014 F-150/Mustang, 2008-2009 Sable, 2008-2019 Taurus/Flex/MKT, 2013-2019 Police Interceptor Sedan/Utility, and 2011-2019 Explorer vehicles may exhibit inoperative or intermittent HVAC blower motor function at various fan speed settings. This may be due to a poor electrical connection at the blower motor speed control. If the blower motor speed control is determined to be the causal part, replacement of the electrical connector pigtail harness (14S411) to the blower motor speed control is also recommended to avoid repeat repairs. Use pigtail harness service part numbers 3U2Z-14S411-ZEA or CU2Z-14S411-FA, as both parts are interchangeable. Refer to Wiring Diagram, Cell 5 for recommended splicing procedures."
+  },
+  {
+    "nhtsaId": "10160931",
+    "replacementBulletinNumber": "",
+    "addedDate": "2019-06-07",
+    "tsbDocumentId": "SSM 47976",
+    "manufacturerCommunicationDate": "2019-05-10",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "On vehicles equipped with an automatic transmission it is imperative that the converter pilot hub be greased with Motorcraft Multi-Purpose Grease Spray XL-5-A even if grease was not applied from the factory. Also verify that the engine/transmission alignment dowel pins are present as well as the engine crankshaft dowel pin, if equipped, when installing the transmission. Failure to adequately lubricate the converter hub greatly increases the likelihood of the flexplate cracking in the future. Missing dowels may cause a misalignment issue also resulting in a premature failure. Refer to Workshop Manual (WSM), Section 307-01."
+  },
+  {
+    "nhtsaId": "10156863",
+    "replacementBulletinNumber": "",
+    "addedDate": "2019-04-08",
+    "tsbDocumentId": "TSB 19-2026",
+    "manufacturerCommunicationDate": "2019-02-07",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "STRUCTURE",
+      "EQUIPMENT"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "Some 2000 and newer Ford, Lincoln and Mercury vehicles equipped with aluminum body panels may exhibit corrosion concerns appearing as bubbled and/or peeling paint with or without accompanying white dust. Panel replacement is recommended. Follow the Service Procedure steps to correct the condition"
+  },
+  {
+    "nhtsaId": "10156877",
+    "replacementBulletinNumber": "",
+    "addedDate": "2019-04-08",
+    "tsbDocumentId": "SSM 47797",
+    "manufacturerCommunicationDate": "2019-02-07",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "EQUIPMENT:APPLIANCE:AIR CONDITIONER",
+      "ELECTRICAL SYSTEM",
+      "ENGINE AND ENGINE COOLING"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "Some 2009-2017 Expedition/Navigator, 2009-2014 F-150/Mustang, 2008-2009 Sable, 2008-2019 Taurus/Flex/MKT, 2013-2019 Police Interceptor Sedan/Utility, and 2011-2019 Explorer vehicles may exhibit inoperative or intermittent HVAC blower motor function at various fan speed settings. This may be due to a poor electrical connection at the blower motor speed control. If the blower motor speed control is determined to be the causal part, replacement of the electrical connector pigtail harness (14S411) to the blower motor speed control is also recommended to avoid repeat repairs. Refer to Wiring Diagram, Cell 5 for recommended splicing procedures. Refer to Wiring Diagram, Cells 54/55 to obtain the service pigtail connector part number."
+  },
+  {
+    "nhtsaId": "10155551",
+    "replacementBulletinNumber": "",
+    "addedDate": "2019-04-01",
+    "tsbDocumentId": "TSB 19-2026",
+    "manufacturerCommunicationDate": "2019-02-07",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "STRUCTURE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "Some 2000 and newer Ford, Lincoln and Mercury vehicles equipped with aluminum body panels may exhibit corrosion concerns appearing as bubbled and/or peeling paint with or without accompanying white dust. Panel replacement is recommended. Follow the Service Procedure steps to correct the condition"
+  },
+  {
+    "nhtsaId": "10155565",
+    "replacementBulletinNumber": "",
+    "addedDate": "2019-04-01",
+    "tsbDocumentId": "SSM 47797",
+    "manufacturerCommunicationDate": "2019-02-07",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "EQUIPMENT:APPLIANCE:AIR CONDITIONER"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "Some 2009-2017 Expedition/Navigator, 2009-2014 F-150/Mustang, 2008-2009 Sable, 2008-2019 Taurus/Flex/MKT, 2013-2019 Police Interceptor Sedan/Utility, and 2011-2019 Explorer vehicles may exhibit inoperative or intermittent HVAC blower motor function at various fan speed settings. This may be due to a poor electrical connection at the blower motor speed control. If the blower motor speed control is determined to be the causal part, replacement of the electrical connector pigtail harness (14S411) to the blower motor speed control is also recommended to avoid repeat repairs. Refer to Wiring Diagram, Cell 5 for recommended splicing procedures. Refer to Wiring Diagram, Cells 54/55 to obtain the service pigtail connector part number."
+  },
+  {
+    "nhtsaId": "10143079",
+    "replacementBulletinNumber": "",
+    "addedDate": "2018-07-23",
+    "tsbDocumentId": "SSM 47331",
+    "manufacturerCommunicationDate": "2018-06-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "EQUIPMENT",
+      "ENGINE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "Various vehicles equipped with a 4.6L, 5.4L, 6.8L modular 3 valve engine built on or before 8-Jan-2016 may exhibit symptoms that may include upper end engine noise, rough running, misfire and/or engine damage. If diagnosis leads to only camshaft/camshaft roller follower(s) requiring replacement, replace all of the camshaft roller followers on both banks/cylinder heads with part number 3L3Z-6564-A, not just the faulty roller follower(s). When replacing the camshaft roller followers, refer to Workshop Manual (WSM), Section 303-01."
+  },
+  {
+    "nhtsaId": "10140323",
+    "replacementBulletinNumber": "",
+    "addedDate": "2018-06-11",
+    "tsbDocumentId": "SSM 47009",
+    "manufacturerCommunicationDate": "2018-01-10",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "EQUIPMENT:ELECTRICAL",
+      "EQUIPMENT"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "The Accessory (Wireless) Keyless Entry Keypad can only be used with vehicles that are factory built with Remote Keyless Entry (RKE). The master code for the Accessory (Wireless) Keyless Entry Keypad can be retrieved from FMCDealer - Parts and Service - Parts Product Line Information - Keys/Entry Devices - Aftermarket Keyless Entry Keypad Code Access. Access to this site is granted through Dealer Program Enrollment System (DPES) and Dealer Principal, General Manager or Parts and Service Director can authorize users. Once authorized the retrieval process for master code can be obtained. The master code for the Accessory Keyless Entry Keypad cannot be retrieved from the body control module(BCM) with a diagnostic tool."
+  },
+  {
+    "nhtsaId": "10138524",
+    "replacementBulletinNumber": "",
+    "addedDate": "2018-05-29",
+    "tsbDocumentId": "SSM 47009",
+    "manufacturerCommunicationDate": "2018-01-10",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "EQUIPMENT:ELECTRICAL"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "The Accessory (Wireless) Keyless Entry Keypad can only be used with vehicles that are factory built with Remote Keyless Entry (RKE). The master code for the Accessory (Wireless) Keyless Entry Keypad can be retrieved from FMCDealer - Parts and Service - Parts Product Line Information - Keys/Entry Devices - Aftermarket Keyless Entry Keypad Code Access. Access to this site is granted through Dealer Program Enrollment System (DPES) and Dealer Principal, General Manager or Parts and Service Director can authorize users. Once authorized the retrieval process for master code can be obtained. The master code for the Accessory Keyless Entry Keypad cannot be retrieved from the body control module(BCM) with a diagnostic tool."
+  },
+  {
+    "nhtsaId": "10137113",
+    "replacementBulletinNumber": "",
+    "addedDate": "2018-05-21",
+    "tsbDocumentId": "SSM 47201",
+    "manufacturerCommunicationDate": "2018-03-30",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "EQUIPMENT"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "Replacing the original equipment SYNC/Navigation system with either an aftermarket SYNC/Navigation kit or modifying original SYNC/Navigation parts to provide additional features is not recommended nor supported on any Ford, Mercury or Lincoln vehicle. Only approved Genuine Ford accessories or originally installed systems are supported and certified to function correctly with other vehicle systems. If you suspect a system has been modified, the following resources can be used to verify original equipment: Monroney Label (Window Sticker), Professional Technician Society (PTS) OASIS tab \u001a select SYNC or HVBOM. For Genuine Ford accessories use: PTS Workshop Tab \u001a select Dealer Installed Accessory or Accessory Installation."
+  },
+  {
+    "nhtsaId": "10136597",
+    "replacementBulletinNumber": "",
+    "addedDate": "2018-05-14",
+    "tsbDocumentId": "SSM 47080",
+    "manufacturerCommunicationDate": "2018-02-14",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "EQUIPMENT:ELECTRICAL:RADIO/TAPE DECK/CD ETC."
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "2010-2018 various vehicles equipped with SYNC or SYNC 3 may not function when attempting to find or use the Spotify app via AppLink. As of an update released on 1/15/2018 Spotify will no longer be supporting their AppLink integration. No repair attempts should be attempted to correct this concern."
+  },
+  {
+    "nhtsaId": "10127405",
+    "replacementBulletinNumber": "",
+    "addedDate": "2018-01-29",
+    "tsbDocumentId": "SSM 46900",
+    "manufacturerCommunicationDate": "2017-11-02",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN:AUTOMATIC TRANSMISSION:CONTROL MODULE (TCM/PCM/TECM)",
+      "ELECTRICAL SYSTEM"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "Some vehicles may exhibit a no start condition with an illuminated malfunction indicator lamp (MIL) and a DTC P161A after PCM replacement. This may be due to the parameter reset procedure not being properly completed. To clear this DTC, use the Ford Integrated Diagnostic System (IDS) service tool or Ford J2534 Diagnostic Software, select - Toolbox - Body - Security - PATS Functions - Parameter Reset. Follow the on-screen instructions to complete the procedure. This procedure will transfer the existing Key ID information between the modules without the need of having 2 programmed PATS keys present. There is no need to program keys when the PCM is going to be replaced. Additional information can be found in the Workshop Manual (WSM), Section 419-01. Missing or lost keys are not warrantable."
+  },
+  {
+    "nhtsaId": "10109070",
+    "replacementBulletinNumber": "",
+    "addedDate": "2017-08-01",
+    "tsbDocumentId": "SSM 46085",
+    "manufacturerCommunicationDate": "2016-09-21",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ENGINE AND ENGINE COOLING:EXHAUST SYSTEM:EMISSION CONTROL",
+      "ENGINE AND ENGINE COOLING:ENGINE:GASOLINE:BELTS AND ASSOCIATED PULLEYS",
+      "ENGINE AND ENGINE COOLING:COOLING SYSTEM:HOSES/LINES/PIPING/FITTINGS",
+      "ENGINE AND ENGINE COOLING:COOLING SYSTEM",
+      "ENGINE AND ENGINE COOLING:EXHAUST SYSTEM:EMISSION CONTROL:GAS RECIRCULATION VALVE (EGR VALVE)",
+      "ENGINE AND ENGINE COOLING:ENGINE:GASOLINE",
+      "ENGINE AND ENGINE COOLING",
+      "ENGINE AND ENGINE COOLING:ENGINE:OTHER FUEL TYPES:TURBO/SUPERCHARGER",
+      "ENGINE AND ENGINE COOLING:COOLING SYSTEM:FAN",
+      "ENGINE AND ENGINE COOLING:ENGINE",
+      "ENGINE",
+      "ENGINE AND ENGINE COOLING:EXHAUST SYSTEM:EMISSION CONTROL:CATALYTIC CONVERTOR",
+      "ENGINE AND ENGINE COOLING:EXHAUST SYSTEM",
+      "ENGINE AND ENGINE COOLING:COOLING SYSTEM:RADIATOR ASSEMBLY",
+      "ENGINE AND ENGINE COOLING:EXHAUST SYSTEM:EMISSION CONTROL:CRANKCASE (PCV)",
+      "ENGINE AND ENGINE COOLING:ENGINE:DIESEL",
+      "ENGINE AND ENGINE COOLING:ENGINE:GASOLINE:TURBO/SUPERCHARGER",
+      "ENGINE AND ENGINE COOLING:EXHAUST SYSTEM:MANIFOLD/HEADER/MUFFLER/TAIL PIPE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "The Powertrain Control/Emissions Diagnosis (PC/ED) manual has been revised for diagnosing electronic throttle bodies (ETBs). The ETC_ACT and ETC_DSD PIDs should not used to diagnose possible ETB concerns. The IDS has a limited refresh rate when reading these PIDs and cannot display quickly enough to validate a concern. The PCM automatically monitors these inputs more accurately and will set diagnostic trouble codes (DTCs) when appropriate. Using these PIDs for diagnostics will lead to inaccurate results and improper ETB replacements. If a concern is intermittent and no DTCs are present, refer to historical DTCs and the PC/ED, Section 3 No DTCs Present Index chart for further information."
+  },
+  {
+    "nhtsaId": "10099463",
+    "replacementBulletinNumber": "",
+    "addedDate": "2017-05-17",
+    "tsbDocumentId": "SSM 46451",
+    "manufacturerCommunicationDate": "2017-03-14",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN:AUTOMATIC TRANSMISSION"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "2009-2017 VEHICLES EQUIPPED WITH A 6R80, 6R100, 6R140 AUTOMATIC TRANSMISSION HAVE AN UPDATED MAIN CONTROL VALVE BODY OVERHAUL PROCEDURE. REFER TO WORKSHOP MANUAL (WSM), SECTION 307-01 FOR MAIN CONTROL VALVE BODY (7A100) OVERHAUL PROCEDURES. NOT ALL VALVE BODIES REQUIRE REPLACEMENT. INSPECT THE VALVE BODY BORES, SPRINGS AND VALVES AS DIRECTED DURING DIAGNOSIS AND REPAIR. REFER TO GENERAL SERVICE BULLETIN (GSB) G0000093 AUTOMATIC TRANSMISSION MAIN CONTROL INSPECTION FOR A VIDEO CLIP TO AID IN THE DIAGNOSIS OF THESE REPAIRS."
+  },
+  {
+    "nhtsaId": "10092370",
+    "replacementBulletinNumber": "",
+    "addedDate": "2017-02-21",
+    "tsbDocumentId": "TSB16-0108",
+    "manufacturerCommunicationDate": "2016-08-16",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "SOME 2004-2014 F-150 AND 2006-2008 MARK LT VEHICLES EQUIPPED WITH FOUR-WHEEL DRIVE (4WD) MAY EXHIBIT NOISY OR ENGAGED FRONT HUBS WHEN OPERATING IN TWO-WHEEL DRIVE (2WD) MODE. FOLLOW THE SERVICE PROCEDURE STEPS TO CORRECT THE CONDITION."
+  },
+  {
+    "nhtsaId": "10091441",
+    "replacementBulletinNumber": "",
+    "addedDate": "2017-02-13",
+    "tsbDocumentId": "SSM 45950",
+    "manufacturerCommunicationDate": "2016-07-26",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "STRUCTURE",
+      "EQUIPMENT"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "SOME 2009-2014 F-150 VEHICLES THAT REQUIRE REPLACEMENT OF THE LOWER ROCKER PANEL AND/OR CAB CORNERS NO LONGER NEED THE ENTIRE DOOR FRAME/OPENING PANEL (211A10/1) REPLACED. A NEW LOWER LEVEL SERVICE ROCKER PATCH PANEL(211A80/1) IS NOW AVAILABLE TO ORDER."
+  },
+  {
+    "nhtsaId": "10091204",
+    "replacementBulletinNumber": "",
+    "addedDate": "2017-02-10",
+    "tsbDocumentId": "TSB16-0097",
+    "manufacturerCommunicationDate": "2016-07-12",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "SEATS"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "SOME 2009-2010 F-150 AND 2011-2016 EXPLORER VEHICLES MAY HAVE A SEAT CUSHION COVER THAT APPEARS LOOSE NEAR THE FRONT OF THE SEAT. THIS MAY BE CAUSED BY THE SEAT CUSHION COVER J-RETAINER BECOMING DISENGAGED FROM THE SEAT CUSHION PAN FLANGE. FOLLOW THE SERVICE PROCEDURE STEPS TO CORRECT THE CONDITION."
+  },
+  {
+    "nhtsaId": "10074713",
+    "replacementBulletinNumber": "",
+    "addedDate": "2016-06-22",
+    "tsbDocumentId": "TSB-15-0137",
+    "manufacturerCommunicationDate": "2015-09-02",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ENGINE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "SUMMARY TO BE PROVIDED ON A FUTURE DATE."
+  },
+  {
+    "nhtsaId": "10075262",
+    "replacementBulletinNumber": "",
+    "addedDate": "2016-06-22",
+    "tsbDocumentId": "16-0032",
+    "manufacturerCommunicationDate": "2016-03-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "4R75E TRANSMISSION - GRINDING/WHINE/VIBRATION/GEAR SLIPPAGE - SERVICE KIT AVAILABLE ISSUE A service kit has been released to assist with proper repair of the 4R75E transmission in 2008 Mark LT, 2008-2010 F-150, 2008-2010 / 2013-2014 E-Series, 2008-2011 Crown Victoria, Grand Marquis and Town Car vehicles that exhibit a grinding, whine-type noise, vibration and/or gear slippage while driving, or a loss of reverse resulting from a planetary gear assembly failure."
+  },
+  {
+    "nhtsaId": "10058236",
+    "replacementBulletinNumber": "",
+    "addedDate": "2015-08-17",
+    "tsbDocumentId": "15-0114",
+    "manufacturerCommunicationDate": "2015-07-24",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "SUSPENSION:REAR:AXLE:NON-POWERED AXLE ASSEMBLY"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD F-150 2009-2012 : SOME TRUCKS WITH A 9.75 TRACTION LOK REAR AXLE ASSEMBLY MAY EXHIBIT, DURING TIGHT SLOW TURNS, VIBRATION, CHATTER OR A SHUDDER. *LJ"
+  },
+  {
+    "nhtsaId": "10058199",
+    "replacementBulletinNumber": "",
+    "addedDate": "2015-08-13",
+    "tsbDocumentId": "44964",
+    "manufacturerCommunicationDate": "2015-03-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "SUSPENSION:FRONT:SPRINGS:LEAF SPRING ASSEMBLY:U-BOLT",
+      "LEAF SPRING TO AXLE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD 2009-2014 F150: SERVICE INFORMATION REGARDING , DAMAGED 4X4 FRONT PINION BEARING DAMAGE IS NOTED DURING THE REPAIR OF THE FRONT AXLE ON 2009-2014 F150 VEHICLES UNITS OPERATED IN SEVERE COLD CLIMATES. *LJ"
+  },
+  {
+    "nhtsaId": "10057834",
+    "replacementBulletinNumber": "",
+    "addedDate": "2015-07-01",
+    "tsbDocumentId": "44863",
+    "manufacturerCommunicationDate": "2015-07-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "VISIBILITY:POWER WINDOW DEVICES AND CONTROLS"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: NO SERVICE ACTION IS RECOMMENDED FOR THIS CONDITION. PLEASE USE AT YOUR DISCRETION. VARIOUS 2010-2015 VEHICLES MAY EXPERIENCE A TURBULENCE NOISE, SIMILAR TO AN HELICOPTER NOISE, AT HIGHWAY SPEEDS WHEN THE REAR DOOR WINDOW(S) OR SUNROOF ARE OPEN. *TA"
+  },
+  {
+    "nhtsaId": "10056749",
+    "replacementBulletinNumber": "",
+    "addedDate": "2015-02-13",
+    "tsbDocumentId": "ASI-44669",
+    "manufacturerCommunicationDate": "2014-08-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "EQUIPMENT ADAPTIVE/MOBILITY"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD/LINCOLN: THERE WILL BE 2 NEW PIECE RECEIVER DRYER DESICCANT BAG THAT WILL REPLACE 1 PIECE RECEIVER DRY CARTRIDGE, WHICH ARE INTERCHANGABLE, FULLY, DO NOT AFFECT FORM, FIT, OR FUNCTION. MODEL 2011-14 F-SUPER DUTY, 2009-14 F150, 2007-14 EXPEDITION/NAVIGATOR. *PE"
+  },
+  {
+    "nhtsaId": "10056701",
+    "replacementBulletinNumber": "",
+    "addedDate": "2015-02-03",
+    "tsbDocumentId": "TSB-14-0153",
+    "manufacturerCommunicationDate": "2014-08-21",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN:AUTOMATIC TRANSMISSION"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD/LINCOLN/MERCURY: FAILURE OF PLANETARY GEAR ASSEMBLY IS DUE TO TRANSMISSION, ON CERTAIN VEHICLES, EXHIBITING GRINDING, GEAR SLIPPAGE, WHINE TYPE NOISE, VIBRATION, WHILE DRIVING OR LOSS OF REVERSE. *PE"
+  },
+  {
+    "nhtsaId": "10056338",
+    "replacementBulletinNumber": "",
+    "addedDate": "2014-11-04",
+    "tsbDocumentId": "TSB-14-0084",
+    "manufacturerCommunicationDate": "2014-04-24",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ENGINE",
+      "ELECTRICAL SYSTEM"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD/LINCOLN: SOME TRUCKS ARE EXPERIENCING DIAGNOSTIC TROUBLE CODES (DTC) P2270 OR P2272, MALFUNCTION INDICATOR LAMP (MIL) COMES ON. MODEL 2010-2011 RANGER, 2010-2012 E SERIES, EXPEDITION, F-150, F-SUPER DUTY, NAVIGATOR. *PE"
+  },
+  {
+    "nhtsaId": "10056191",
+    "replacementBulletinNumber": "",
+    "addedDate": "2014-10-01",
+    "tsbDocumentId": "ASI-44538",
+    "manufacturerCommunicationDate": "2014-05-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN:AUTOMATIC TRANSMISSION"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD/LINCOLN/MERCURY: THE INDICATOR MAY ILLUMINATE OVERDRIVE OFF AND/OR SLIPPING IN 3RD OR NO 4TH GEAR, DUE TO DIRECT CLUTCH FAILURE AND DIAGNOSTIC TROUBLE CODE (DTC) P0733 AND/OR P0734. MODEL 2008-2013 MARK LT, F-150, CROWN VICTORIA, GRAND MARQUIS, TOWN CAR, E SERIES. *PE"
+  },
+  {
+    "nhtsaId": "10056170",
+    "replacementBulletinNumber": "",
+    "addedDate": "2014-09-25",
+    "tsbDocumentId": "ASI-44531",
+    "manufacturerCommunicationDate": "2014-05-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "SEATS:FRONT ASSEMBLY:POWER ADJUST"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "LINCOLN/FORD: ON SOME VEHICLES AND TRUCKS, THERE IS A POPPING, SQUEALING, BINDING OR GRINDING NOISE COME FROM POWER SEATS WHEN MOVING BACKWARDS OR FORWARD. MODEL 2009-2015 F-150, TAURUS, FLEX, MKT, MKS, F-SUPER DUTY, EXPLORER. *PE"
+  },
+  {
+    "nhtsaId": "10056148",
+    "replacementBulletinNumber": "",
+    "addedDate": "2014-09-17",
+    "tsbDocumentId": "TSB-14-0114",
+    "manufacturerCommunicationDate": "2014-05-30",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ENGINE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "LINCOLN/FORD: WHEN DRIVING FROM IDLE UP TO 1200 RPM, THERE MAY BE AN INTERMITTENT RATTLE NOISE COMING FROM ENGINE. 2004-2013 F-150, F-250, F-350, EXPEDITION, MARK LT, NAVIGATOR. *PE"
+  },
+  {
+    "nhtsaId": "10055783",
+    "replacementBulletinNumber": "",
+    "addedDate": "2014-07-17",
+    "tsbDocumentId": "TSB-14-0069",
+    "manufacturerCommunicationDate": "2014-04-07",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN:AUTOMATIC TRANSMISSION"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "LINCOLN/MERCURY/FORD: THERE IS FLUID LEAKING AROUND THE TRANSMISSION BULKHEAD CONNECTOR SLEEVE, FROM THE TRANSMISSION. MODEL 2009-10 EXPEDITION, EXPLORER, EXPLORER SPORT TRAC, F-150, NAVIGATOR, MOUNTAINEER. *PE"
+  },
+  {
+    "nhtsaId": "10055638",
+    "replacementBulletinNumber": "",
+    "addedDate": "2014-06-25",
+    "tsbDocumentId": "ASI-44421",
+    "manufacturerCommunicationDate": "2014-02-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "SUSPENSION:REAR:SHOCK ABSORBER"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: ON SOME TRUCKS, THERE IS NOISE (CHIRP, CLUNK, BOOM) COMING FROM RIGHT FRONT REAR SHOCK ABSORBER, WHEN TRAVELING OVER SHARP, SMALL BUMPS (POTHOLES, FROST HEAVES OR EXPANSION JOINTS, AND MORE APPARENT DURING COLD TEMPERATURES. MODEL 2010-2014 F-150. *PE"
+  },
+  {
+    "nhtsaId": "10055041",
+    "replacementBulletinNumber": "",
+    "addedDate": "2014-03-28",
+    "tsbDocumentId": "ASI-44383",
+    "manufacturerCommunicationDate": "2014-01-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "EQUIPMENT ADAPTIVE/MOBILITY"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: WHILE REPAIRING THE FRONT AXLE, DAMAGE TO PINION BEARING IS NOTED AFTER OPERATING IN SEVERE COLD CLIMATES. MODEL 2009-2014 F-150. *PE"
+  },
+  {
+    "nhtsaId": "10055029",
+    "replacementBulletinNumber": "",
+    "addedDate": "2014-03-25",
+    "tsbDocumentId": "ASI-44362",
+    "manufacturerCommunicationDate": "2014-01-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "SUSPENSION:FRONT:SHOCK ABSORBER",
+      "SUSPENSION:REAR:SHOCK ABSORBER"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: ON SOME VEHICLES, FLUID IS PRESENT ON SHOCK ABSORBER SHAFT TO BODY INTERFACE OR THERE IS WETNESS AT REAR RESERVOIR SNAP RING AND NO REPLACEMENT SHOULD OCCUR, SINCE SHOCK WEEPAGE IS NORMAL. MODEL 2010-2014 F-150 RAPTOR. *PE"
+  },
+  {
+    "nhtsaId": "10054920",
+    "replacementBulletinNumber": "",
+    "addedDate": "2014-03-12",
+    "tsbDocumentId": "TSB-14-0010",
+    "manufacturerCommunicationDate": "2014-01-15",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ENGINE AND ENGINE COOLING:ENGINE:GASOLINE:TURBO/SUPERCHARGER"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: SOME TRUCKS WILL EXPERIENCE A NO OR HARD START CONDITION IF WEATHER IS BELOW -15 CELSIUS, 0 FAHRENHEIT. MODEL 2011-2014 F-150. *PE"
+  },
+  {
+    "nhtsaId": "10054546",
+    "replacementBulletinNumber": "",
+    "addedDate": "2014-02-03",
+    "tsbDocumentId": "ASI-44281",
+    "manufacturerCommunicationDate": "2013-11-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "SUSPENSION:REAR:SHOCK ABSORBER"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: THE SHOCK ABSORBER HAS FLUID OR WETNESS AT REAR RESERVOIR SNAP RING AND WEEPAGE OR LEAKAGE IS NORMAL AND WILL NOT HAVE A DETRIMENTAL EFFECT TO LIFT OF SHOCK ABSORBERS OR SUSPENSION. MODEL 2010-2013 F-150. *PE"
+  },
+  {
+    "nhtsaId": "10054547",
+    "replacementBulletinNumber": "",
+    "addedDate": "2014-02-03",
+    "tsbDocumentId": "ASI-44282",
+    "manufacturerCommunicationDate": "2013-11-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "EQUIPMENT ADAPTIVE/MOBILITY",
+      "EQUIPMENT"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: THE TORCA*CLAMP, THAT SECURES TWO CATALYST PIPES, REQUIRES REPLACEMENT DUE TO REPEATED STRETCHING AND NO LONGER PROVIDE NECESSARY CLAMPING FORCE SEALING EXHAUST JOINT. MODEL 2010-2014 F-150. *PE"
+  },
+  {
+    "nhtsaId": "10053458",
+    "replacementBulletinNumber": "",
+    "addedDate": "2013-10-29",
+    "tsbDocumentId": "ASI-32295",
+    "manufacturerCommunicationDate": "2013-06-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "SERVICE BRAKES",
+      "AIR:ANTILOCK:CONTROL UNIT/MODULE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: ON SOME VEHICLES, DURING A PROGRAMMABLE MODULE INSTALLATION (PMI) OF ANTI LOCK BRAKE (ABS) MODULE AN IDS ERROR MESSAGE APPEARS, IF IDS SESSION STARTED WITH NEW ABS MODULE CONNECT. MODELS 2010-2013 F-150. *PE"
+  },
+  {
+    "nhtsaId": "10053447",
+    "replacementBulletinNumber": "",
+    "addedDate": "2013-10-28",
+    "tsbDocumentId": "ASI-32270",
+    "manufacturerCommunicationDate": "2013-06-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "WHEELS:HUB"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: THERE IS A NOISE COMING FROM THE FRONT HUB INTEGRATED WHEEL END (IWE) AREAS AND WHEN SHIFTED INTO 4X4 MODE, THE NOISE WILL CEASE. MODELS 2008-2013 F-150, EXPEDITION, NAVIGATOR, MARK LT. *PE"
+  },
+  {
+    "nhtsaId": "10053429",
+    "replacementBulletinNumber": "",
+    "addedDate": "2013-10-26",
+    "tsbDocumentId": "ASI-32266",
+    "manufacturerCommunicationDate": "2013-06-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "STRUCTURE:BODY:DOOR",
+      "STRUCTURE:BODY:DOOR:HINGE AND ATTACHMENTS",
+      "LATCHES/LOCKS/LINKAGES:DOORS:LATCH"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: ON SOME VEHICLES, THE OUTSIDE DOOR HANDLES NEEDS TO BE PULLED AT LEAST TWICE BEFORE OPENING. MODELS 2010-2013 F150, MUSTANG. *PE"
+  },
+  {
+    "nhtsaId": "10053423",
+    "replacementBulletinNumber": "",
+    "addedDate": "2013-10-25",
+    "tsbDocumentId": "ASI-32259",
+    "manufacturerCommunicationDate": "2013-06-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "VISIBILITY:DEFROSTER/DEFOGGER/HVAC SYSTEM:REAR WINDOW"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: A POWER SLIDING REAR WINDOW, ON SOME VEHICLES, MAY EXPERIENCE A POSSIBLE INOPERATIVE REAR WINDOW DEFROST. MODELS 2010-2013 F-150. *PE"
+  },
+  {
+    "nhtsaId": "10052801",
+    "replacementBulletinNumber": "",
+    "addedDate": "2013-09-17",
+    "tsbDocumentId": "TSB-13-5-15",
+    "manufacturerCommunicationDate": "2013-05-13",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "VISIBILITY:POWER WINDOW DEVICES AND CONTROLS",
+      "VISIBILITY:GLASS",
+      "SIDE/REAR"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: ON SOME VEHICLES, THE REAR SLIDING GLASS CENTER PANEL HAS A WATER LEAKAGE AT THE SIDE PANEL. MODEL 2010-2013 F-150. *PE"
+  },
+  {
+    "nhtsaId": "10051733",
+    "replacementBulletinNumber": "",
+    "addedDate": "2013-04-06",
+    "tsbDocumentId": "TSB-12-11-18",
+    "manufacturerCommunicationDate": "2012-11-29",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "TRACTION CONTROL SYSTEM"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: DUE TO TRACTION CONTROL FLASHING OR ILLUMINATING INDICATOR, DIAGNOSTIC CODES (DTC) C1963, C1278, C1280, C1282 ARE STORED IN ANTI LOCK BRAKE SYSTEM (ABS), DURING LOW SPEED MANEUVERS . MODELS 2009-2012 F-150. *PE"
+  },
+  {
+    "nhtsaId": "10051724",
+    "replacementBulletinNumber": "",
+    "addedDate": "2013-04-05",
+    "tsbDocumentId": "ASI-12048",
+    "manufacturerCommunicationDate": "2012-11-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "EXTERIOR LIGHTING:HEADLIGHTS:SWITCH"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: DUE TO AN OPEN HEADLIGHT SWITCH, THE HEADLAMPS, PARK LAMPS OR LAMPS ARE INOPERATIVE AND HEADLAMPS WILL REMAIN ON BECAUSE OF AFTERMARKET OR GENUINE FORD ACCESSORIES (GFA), INSTALLED INCORRECTLY. CAUSING POSSIBLE DAMAGE TO SWITCH. 2009-2013 F-150. *PE"
+  },
+  {
+    "nhtsaId": "10045085",
+    "replacementBulletinNumber": "",
+    "addedDate": "2012-08-17",
+    "tsbDocumentId": "TSB-12-6-18",
+    "manufacturerCommunicationDate": "2012-06-28",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ELECTRONIC STABILITY CONTROL (ESC)"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: ON SOME TRUCKS, TRACTION CONTROL INDICATOR FLASHES OR ILLUMINATES AND AT LOW SPEED MANEUVERING TURNS, ELECTRONIC STABILITY CONTROL (ESC) IS AN INTERMITTENT NUISANCE ACTIVATION. *PE"
+  },
+  {
+    "nhtsaId": "10044211",
+    "replacementBulletinNumber": "",
+    "addedDate": "2012-05-23",
+    "tsbDocumentId": "ASI-22234",
+    "manufacturerCommunicationDate": "2012-02-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "SERVICE BRAKES",
+      "HYDRAULIC:FOUNDATION COMPONENTS:DISC:CALIPER",
+      "AIR:DISC:CALIPER"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: THE COMPLETE CALIPER ASSEMBLY, BRACKET (ANCHOR PLATE), BRAKE PADS, ROTORS AND CLIPS NEEDS TO BE REPLACED DUE TO STICKING OR BINDING OF FRONT BRAKE CALIPER. *PE"
+  },
+  {
+    "nhtsaId": "10044117",
+    "replacementBulletinNumber": "",
+    "addedDate": "2012-05-14",
+    "tsbDocumentId": "12-2-13",
+    "manufacturerCommunicationDate": "2012-02-23",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "LATCHES/LOCKS/LINKAGES:DOORS:LATCH"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: SOME VEHICLES MAY EXHIBIT A CONDITION WHERE ONE OR MORE REAR DOORS ARE DIFFICULT TO LOCK OR UNLOCK USING THE DOOR LOCK ROD. THIS MAY BE DUE TO DUST BUILDUP IN THE DOOR LATCH. ALSO INCLUDED MODEL F150 MODEL YEARS 2009-2011. *JS"
+  },
+  {
+    "nhtsaId": "10042485",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-12-12",
+    "tsbDocumentId": "TSB-11-11-6",
+    "manufacturerCommunicationDate": "2011-11-07",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "SUSPENSION:REAR:AXLE:NON-POWERED AXLE ASSEMBLY"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: WHEN MAKING TIGHT TURNS OR DRIVING SLOW, VEHICLE MAY EXHIBIT A SHUDDER, CHATTER AND/OR VIBRATION, EVEN AFTER COLD STARTUP. *PE"
+  },
+  {
+    "nhtsaId": "10041932",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-11-17",
+    "tsbDocumentId": "TSB-11-8-8",
+    "manufacturerCommunicationDate": "2011-08-16",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ENGINE AND ENGINE COOLING:ENGINE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: AFTER REFUELING VEHICLE, WOULD BE HARD TO START, RUNS ROUGH AND AN AUDIBLE CLICKING NOISE CAN BE HEARD. *PE"
+  },
+  {
+    "nhtsaId": "10039725",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-08-09",
+    "tsbDocumentId": "TSB-10-18-1",
+    "manufacturerCommunicationDate": "2010-09-02",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN:AUTOMATIC TRANSMISSION"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: SOME EXPEDITION/NAVIGATOR/F150 VEHICLES MAY HAVE A DELAYED FORWARD/REVERSE ENGAGEMENT WITH STORED TROUBLE CODES. *RM"
+  },
+  {
+    "nhtsaId": "10039147",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-07-13",
+    "tsbDocumentId": "AS-21458",
+    "manufacturerCommunicationDate": "2010-08-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "SERVICE BRAKES",
+      "HYDRAULIC:ANTILOCK/TRACTION CONTROL/ELECTRONIC LIMITED SLIP",
+      "AIR",
+      "HYDRAULIC:PEDALS AND LINKAGES"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: THE BRAKES MAY FEEL TOUCHY OR AGGRESSIVE. 2010 F150. *RM"
+  },
+  {
+    "nhtsaId": "10039159",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-07-13",
+    "tsbDocumentId": "TSB-10-21-6",
+    "manufacturerCommunicationDate": "2010-10-21",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ENGINE AND ENGINE COOLING:ENGINE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: THE IDLE SPEED DROPS LOWER THAN DESIRED AND MAY FLUCTUATE. THERE MAY BE TWO POSSIBLE TROUBLE CODES STORED. *RM"
+  },
+  {
+    "nhtsaId": "10039164",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-07-13",
+    "tsbDocumentId": "TSB-10-24-1",
+    "manufacturerCommunicationDate": "2010-11-24",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN:AUTOMATIC TRANSMISSION",
+      "ENGINE AND ENGINE COOLING:ENGINE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: THERE MAY BE AN RPM SURGE WHEN COLD AND AT 25-35 MPH. 2010 F150. *RM"
+  },
+  {
+    "nhtsaId": "10039184",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-07-13",
+    "tsbDocumentId": "AS-21450",
+    "manufacturerCommunicationDate": "2010-08-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ENGINE AND ENGINE COOLING:ENGINE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: WHEN ACCELERATING AFTER A COLD START THERE MAY BE LACK OF POWER OR ROUGH RUNNING. NORMAL CONDITION. 2009-2010 EXPEDITION/NAVIGATOR/F150. *RM"
+  },
+  {
+    "nhtsaId": "10039135",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-07-12",
+    "tsbDocumentId": "TSB-10-24-7",
+    "manufacturerCommunicationDate": "2010-12-03",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN:AUTOMATIC TRANSMISSION:GEAR POSITION INDICATION (PRNDL)"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: THE GEAR SELECTOR LEVER MAY BE TOUGH TO OPERATE IN COLD WEATHER DUE TO SNOW BUILDUP AROUND THE SHIFT CABLE. 2009-2010 F150. *RM"
+  },
+  {
+    "nhtsaId": "10039138",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-07-12",
+    "tsbDocumentId": "AS-21578",
+    "manufacturerCommunicationDate": "2010-11-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN:DRIVELINE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: THERE IS A RATTLE NOISE WHEN DRIVING 25-30 MPH FROM THE TRANSMISSION WHEN UNDER LOAD. 2009-2010 F-150. *RM"
+  },
+  {
+    "nhtsaId": "10039050",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-07-07",
+    "tsbDocumentId": "TSB-11-2-5",
+    "manufacturerCommunicationDate": "2011-02-03",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "TRACTION CONTROL SYSTEM"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: THE TRACTION CONTROL LIGHT IS FLASHING WITH MULTIPLE STORED TROUBLE CODES. THE STABILITY LIGHT MAY ALSO BE ON WHILE TOWING A TRAILER AT LOW SPEED. 2009-2010 F-150. *RM"
+  },
+  {
+    "nhtsaId": "10039051",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-07-07",
+    "tsbDocumentId": "TSB-11-3-8",
+    "manufacturerCommunicationDate": "2011-03-08",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN:AUTOMATIC TRANSMISSION"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: WITH COLD WEATHER, THE GEAR SELECTOR MAY REQUIRE EXTRA EFFORT. THERE MAY BE SNOW BUILDUP ON THE SHIFT LEVER. 2009-2011 F150. *RM"
+  },
+  {
+    "nhtsaId": "10039053",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-07-07",
+    "tsbDocumentId": "AS-21769",
+    "manufacturerCommunicationDate": "2011-03-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ELECTRICAL SYSTEM:SOFTWARE",
+      "POWER TRAIN",
+      "ENGINE AND ENGINE COOLING:ENGINE",
+      "SERVICE BRAKES",
+      "AIR:ANTILOCK"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: IF THERE IS AN INTERMITTENT LACK OF POWER, SURGE, OR HESITATION WHILE DRIVING THE BRAKES WILL OVERRIDE ACCELERATION. *RM"
+  },
+  {
+    "nhtsaId": "10039065",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-07-07",
+    "tsbDocumentId": "TSB-11-4-11",
+    "manufacturerCommunicationDate": "2011-04-14",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "STRUCTURE:BODY:TAILGATE",
+      "STRUCTURE:BODY:TAILGATE:HINGE AND ATTACHMENTS"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: THE TAILGATE APPLIQUE MAY SEPARATE FROM THE SHEET METAL. 2009-2011 F150. *RM"
+  },
+  {
+    "nhtsaId": "10039072",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-07-07",
+    "tsbDocumentId": "AS-21687",
+    "manufacturerCommunicationDate": "2011-01-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "POWER TRAIN:AUTOMATIC TRANSMISSION:CONTROL MODULE (TCM/PCM/TECM)"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: THERE MAY BE A LOSS OF POWER, HESITATION, SURGE, OR LACK OF THROTTLE RESPONSE WHILE DRIVING. THE BRAKE OVER ACCELERATOR FEATURE MAY BE ACTIVATING. *RM"
+  },
+  {
+    "nhtsaId": "10038965",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-06-29",
+    "tsbDocumentId": "SIS-21841",
+    "manufacturerCommunicationDate": "2011-04-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ELECTRICAL SYSTEM:SOFTWARE",
+      "AIR BAGS"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "COMM-TRANS LUND: SOME 2009-2011 MODELS MAY HAVE THE AIR BAG INICATOR FLASHING WITH A STORED TROUBLE CODE. THIS IS A SOFTWARE PROBLEM. *RM"
+  },
+  {
+    "nhtsaId": "10038946",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-06-28",
+    "tsbDocumentId": "TSB-11-4-7",
+    "manufacturerCommunicationDate": "2011-04-06",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "TRACTION CONTROL SYSTEM",
+      "ELECTRICAL SYSTEM"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: 2009-2011 F150. TRACTION CONTROL LIGHT MAY BE ILLUMINATED WITH TROUBLE CODES STORED. THE ELECTRONIC STABILITY CONTROL MAY ALSO ACTIVATE INTERMITTENTLY WHILE TOWING A TRAILER. *RM"
+  },
+  {
+    "nhtsaId": "10037561",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-05-25",
+    "tsbDocumentId": "TSB11-1-5",
+    "manufacturerCommunicationDate": "2011-02-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ENGINE AND ENGINE COOLING:EXHAUST SYSTEM:EMISSION CONTROL"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: VEHICLES MAY RUN ROUGH, HARD START AFTER REFUELING, CLICKING NOISE UNDER HOOD, AND HAVE TROUBLE CODES STORED. *RM"
+  },
+  {
+    "nhtsaId": "10037098",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-05-05",
+    "tsbDocumentId": "TSB-10-18-1",
+    "manufacturerCommunicationDate": "2010-09-02",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ENGINE AND ENGINE COOLING:ENGINE",
+      "POWER TRAIN:AUTOMATIC TRANSMISSION"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: SOME EXPEDITION, F-150, AND NAVIGATOR MODELS MAY EXPERIENCE A DELAYED FORWARD OR REVERSE TRANSMISSION ENGAGEMENT. USUALLY HAPPENS ON COLD START IN COLD CLIMATES. *RM"
+  },
+  {
+    "nhtsaId": "10037081",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-05-04",
+    "tsbDocumentId": "TSB-10-18-6",
+    "manufacturerCommunicationDate": "2010-09-08",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "EXTERIOR LIGHTING:BRAKE LIGHTS:SWITCH"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: ON SOME 2010-2011 FORD TRUCKS THERE IS A BRAKE DRAG CONDITION. THERE IS AN IMPROPERLY ADJUSTED STOPLAMP SWITCH. *RM"
+  },
+  {
+    "nhtsaId": "10037085",
+    "replacementBulletinNumber": "",
+    "addedDate": "2011-05-04",
+    "tsbDocumentId": "SB-21512",
+    "manufacturerCommunicationDate": "2010-09-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "SERVICE BRAKES",
+      "HYDRAULIC:ANTILOCK/TRACTION CONTROL/ELECTRONIC LIMITED SLIP:WHEEL SPEED SENSOR/TONE RING",
+      "EXTERIOR LIGHTING:BRAKE LIGHTS:SWITCH"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: WITH SOME 2010 F-150S THE ANTI-LOCK BRAKE SYSTEM LIGHT IS ON AND POSSIBLE BRAKE FLUID LEAK. *RM"
+  },
+  {
+    "nhtsaId": "10034631",
+    "replacementBulletinNumber": "",
+    "addedDate": "2010-12-14",
+    "tsbDocumentId": "SB-21434",
+    "manufacturerCommunicationDate": "2010-07-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ENGINE AND ENGINE COOLING:ENGINE:DIESEL"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: SUPPLY/RETURN LINES INSTALLATION AT HIGH PRESSURE PUMP-REVISED WASHER FOR TRUCKS EQUIPPED WITH 6.4L ENGINES. WHEN INSTALLING SUPPLY OR RETURN LINES AT HIGH PRESSURE PUMP ON DIESEL ENGINES, DO NOT USE THE BONDED STYLE WASHER (W302870), USE ONLY THE HYBRID STYLE WASHER (W303659). *PE"
+  },
+  {
+    "nhtsaId": "10034528",
+    "replacementBulletinNumber": "",
+    "addedDate": "2010-11-29",
+    "tsbDocumentId": "SB-21317",
+    "manufacturerCommunicationDate": "2010-05-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "SERVICE BRAKES",
+      "AIR:ANTILOCK:CONTROL UNIT/MODULE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: SOME F150 SVT RAPTOR VEHICLES MAY EXHIBIT HILL DECENT CONTROL FAULT WITH ABS DTC C116A. ON VEHICLES BUILT BEFORE 2/26/10 ONLY, INSPECT THE HIGH MOUNTED STOP LAMP FOR EVIDENCE OF WATER INTRUSION. *PE"
+  },
+  {
+    "nhtsaId": "10034532",
+    "replacementBulletinNumber": "",
+    "addedDate": "2010-11-29",
+    "tsbDocumentId": "SB-21351",
+    "manufacturerCommunicationDate": "2010-05-01",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "ENGINE AND ENGINE COOLING:ENGINE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: LACK OF POWER WIDE OPEN THROTTLE ONLY. SOME VEHICLES MAY EXHIBIT A LACK OF POWER DURING WIDE OPEN THROTTLE ONLY. NO DTCS WILL BE PRESENT AND ENGINE PERFORMANCE DURING NORMAL DRIVING WILL NOT BE AFFECTED. CHECK ENGINE AIR INLET TUBE FOR EVIDENCE OF BEING PARTIALLY DRAWN CLOSED OR RESTRICTED. *PE"
+  },
+  {
+    "nhtsaId": "10033867",
+    "replacementBulletinNumber": "",
+    "addedDate": "2010-09-28",
+    "tsbDocumentId": "TSB-10-15-9",
+    "manufacturerCommunicationDate": "2010-07-30",
+    "internalCampaignId": "",
+    "communicationType": "Service Bulletin/Repair Instructions",
+    "make": "FORD",
+    "modelYears": [
+      "2010"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "components": [
+      "STRUCTURE:BODY:TAILGATE"
+    ],
+    "mfrSystems": [],
+    "mfrSubsystems": [],
+    "summary": "FORD: TAILGATE APPLIQUE SEPARATION. SOME PLATINUM TRUCKS MAY EXHIBIT TAILGATE APPLIQUE SEPARATION FROM THE SHEET METAL. FOLLOW THE SERVICE PROCEDURE STEPS TO CORRECT THE CONDITION. *PE"
+  }
+]
