@@ -55,6 +55,9 @@ export type AxleRatio = "3.15" | "3.31" | "3.55" | "3.73" | "4.10" | "4.30";
 // Exterior colors known to be offered across 12th-gen 2009-2014. The 2010
 // lineup uses a subset documented in years/2010.ts. Verified against Ford
 // 2010 F-150 brochure (auto-brochures.com archive) and Edmunds 2010 specs.
+// 2014-specific colors added per LINEUP-PLAN Phase 3 (race_red, ruby_red,
+// blue_jeans, kodiak_brown, caribou) — Ford rolled the palette over for the
+// final 12th-gen year.
 export type ExteriorColorId =
   | "oxford_white"
   | "tuxedo_black"
@@ -69,7 +72,12 @@ export type ExteriorColorId =
   | "autumn_red"
   | "cinnamon_glaze"
   | "pueblo_gold"
-  | "white_platinum_tri_coat";
+  | "white_platinum_tri_coat"
+  | "race_red"
+  | "ruby_red"
+  | "blue_jeans"
+  | "kodiak_brown"
+  | "caribou";
 
 export type InteriorColorId =
   | "steel_grey"

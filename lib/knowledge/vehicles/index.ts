@@ -10,7 +10,18 @@ export * from "./trims";
 export * from "./raptor";
 export * from "./bulletins";
 export * from "./parts-linker";
+export * from "./tow-payload";
+export * from "./option-decoder";
+export * from "./years/2009";
 export * from "./years/2010";
+export * from "./years/2011";
+export * from "./years/2012";
+export * from "./years/2013";
+export * from "./years/2014";
+// Color / paint-code reference lives in lib/knowledge/references but is
+// re-exported here so vehicle-config consumers can access paint codes
+// alongside trim/year/variant data without crossing module boundaries.
+export * from "../references/color-paint-codes";
 
 import { ALL_ENGINES } from "./engines";
 import { ALL_NONRAPTOR_TRIMS } from "./trims";

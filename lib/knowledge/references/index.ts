@@ -50,4 +50,8 @@ export * from "@/lib/knowledge/references/nhtsa-tsbs-comprehensive";
 export * from "@/lib/knowledge/references/forscan-pids";
 export * from "@/lib/knowledge/references/wiring-electrical";
 export * from "@/lib/knowledge/references/community-misdiagnoses";
+// ── Phase 2 expansion (Gen 1 Raptor, interior, paint, lineup) ──
+export * from "@/lib/knowledge/references/svt-raptor-gen1";
+export * from "@/lib/knowledge/references/interior-parts";
+// color-paint-codes is re-exported via vehicles/index.ts already (cross-boundary access)
 export * from "@/lib/knowledge/references/lookup";

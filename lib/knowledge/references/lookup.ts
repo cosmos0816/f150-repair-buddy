@@ -49,6 +49,11 @@ import { NHTSA_COMPREHENSIVE_TSB_REFERENCES } from "@/lib/knowledge/references/n
 import { FORSCAN_PID_REFERENCES } from "@/lib/knowledge/references/forscan-pids";
 import { WIRING_ELECTRICAL_REFERENCES } from "@/lib/knowledge/references/wiring-electrical";
 import { COMMUNITY_MISDIAGNOSIS_REFERENCES } from "@/lib/knowledge/references/community-misdiagnoses";
+// ── Phase 2 expansion ──
+import { SVT_RAPTOR_GEN1_REFERENCES } from "@/lib/knowledge/references/svt-raptor-gen1";
+import { INTERIOR_PARTS_REFERENCES } from "@/lib/knowledge/references/interior-parts";
+import { COLOR_PAINT_CODE_REFERENCES } from "@/lib/knowledge/references/color-paint-codes";
+import { WINDOW_STICKER_REFERENCES } from "@/lib/knowledge/vehicles/option-decoder";
 import type { TruckReferenceRecord, TruckReferenceSearchResult, TruckReferenceSourceType } from "@/lib/knowledge/references/types";
 
 const TRUCK_REFERENCE_RECORDS: TruckReferenceRecord[] = [
@@ -103,6 +108,11 @@ const TRUCK_REFERENCE_RECORDS: TruckReferenceRecord[] = [
   ...FORSCAN_PID_REFERENCES,
   ...WIRING_ELECTRICAL_REFERENCES,
   ...COMMUNITY_MISDIAGNOSIS_REFERENCES,
+  // ── Phase 2 expansion ──
+  ...SVT_RAPTOR_GEN1_REFERENCES,
+  ...INTERIOR_PARTS_REFERENCES,
+  ...COLOR_PAINT_CODE_REFERENCES,
+  ...WINDOW_STICKER_REFERENCES,
 ];
 
 function normalize(value: string) {
