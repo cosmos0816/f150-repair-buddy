@@ -31,6 +31,24 @@ import { RAPTOR_GEN2_REFERENCES } from "@/lib/knowledge/references/raptor-gen2-r
 import { KOREA_PARTS_SHIPPING_REFERENCES } from "@/lib/knowledge/references/korea-parts-shipping";
 // ── Bed & Cab knowledge ──
 import { BED_CAB_REFERENCES } from "@/lib/knowledge/references/bed-cab-reference";
+// ── Cross-engine comparative knowledge ──
+import { ENGINE_COMPARISON_REFERENCES } from "@/lib/knowledge/references/engine-comparison";
+import { MULTI_ENGINE_MAINTENANCE_REFERENCES } from "@/lib/knowledge/references/multi-engine-maintenance";
+// ── Parts sourcing ──
+import { PARTS_SOURCING_REFERENCES } from "@/lib/knowledge/references/parts-sourcing";
+// ── Raptor (additional) ──
+import { RAPTOR_MODIFICATIONS_REFERENCES } from "@/lib/knowledge/references/raptor-modifications";
+import { RAPTOR_TSB_REFERENCES } from "@/lib/knowledge/references/raptor-tsbs";
+// ── Performance / lift / aesthetic ──
+import { PERFORMANCE_TUNING_REFERENCES } from "@/lib/knowledge/references/performance-tuning";
+import { LIFT_KIT_REFERENCES } from "@/lib/knowledge/references/lift-kits";
+import { AESTHETIC_ACCESSORIES_REFERENCES } from "@/lib/knowledge/references/aesthetic-accessories";
+// ── Comprehensive NHTSA TSB compilation ──
+import { NHTSA_COMPREHENSIVE_TSB_REFERENCES } from "@/lib/knowledge/references/nhtsa-tsbs-comprehensive";
+// ── Community research codification ──
+import { FORSCAN_PID_REFERENCES } from "@/lib/knowledge/references/forscan-pids";
+import { WIRING_ELECTRICAL_REFERENCES } from "@/lib/knowledge/references/wiring-electrical";
+import { COMMUNITY_MISDIAGNOSIS_REFERENCES } from "@/lib/knowledge/references/community-misdiagnoses";
 import type { TruckReferenceRecord, TruckReferenceSearchResult, TruckReferenceSourceType } from "@/lib/knowledge/references/types";
 
 const TRUCK_REFERENCE_RECORDS: TruckReferenceRecord[] = [
@@ -67,6 +85,24 @@ const TRUCK_REFERENCE_RECORDS: TruckReferenceRecord[] = [
   ...KOREA_PARTS_SHIPPING_REFERENCES,
   // ── Bed & Cab ──
   ...BED_CAB_REFERENCES,
+  // ── Cross-engine comparative ──
+  ...ENGINE_COMPARISON_REFERENCES,
+  ...MULTI_ENGINE_MAINTENANCE_REFERENCES,
+  // ── Parts sourcing ──
+  ...PARTS_SOURCING_REFERENCES,
+  // ── Raptor (additional) ──
+  ...RAPTOR_MODIFICATIONS_REFERENCES,
+  ...RAPTOR_TSB_REFERENCES,
+  // ── Performance / lift / aesthetic ──
+  ...PERFORMANCE_TUNING_REFERENCES,
+  ...LIFT_KIT_REFERENCES,
+  ...AESTHETIC_ACCESSORIES_REFERENCES,
+  // ── Comprehensive NHTSA TSBs ──
+  ...NHTSA_COMPREHENSIVE_TSB_REFERENCES,
+  // ── Community research codification ──
+  ...FORSCAN_PID_REFERENCES,
+  ...WIRING_ELECTRICAL_REFERENCES,
+  ...COMMUNITY_MISDIAGNOSIS_REFERENCES,
 ];
 
 function normalize(value: string) {

@@ -33,6 +33,7 @@ const GEMINI_LIVE_BASE_SYSTEM_INSTRUCTION = [
   "Call generateMechanicReport when the user wants to share findings with a Korean mechanic.",
   "Call summarizeSessionEvidence to review what has been captured so far before giving a final assessment.",
   "Call getNextInspectionTarget when you finish examining one area — guide them to the next logical spot.",
+  "Call findPartsForDiagnosis (preferred over searchReplacementParts) once you have a confident diagnosis — it returns the exact RockAuto categories, verified part numbers, and preferred brands for that specific failure mode.",
 
   // ── Do / Don't ──
   "DO describe what you CAN see, even if the image is blurry — then ask for a specific camera move: closer, left, right, underneath, or hold still.",

@@ -19,7 +19,9 @@ import {
   type TruckKnowledgeLookup,
 } from "@/lib/knowledge";
 import { APP_CONFIG } from "@/lib/config/app-config";
+import { findPartsForIssueClient } from "@/lib/knowledge/issue-parts-map-client";
 import { searchPartsCatalogClient } from "@/lib/knowledge/parts-catalog-client";
+import type { EngineId, TrimId } from "@/lib/knowledge/vehicles/types";
 import { searchTruckRepairCosts } from "@/lib/knowledge/truck/repair-costs";
 import { searchTruckReferences } from "@/lib/knowledge/references/lookup";
 import { buildMechanicExport } from "@/lib/session/mechanic-export";
@@ -764,6 +766,45 @@ const LIVE_SESSION_TOOL_EXECUTORS: Record<string, ToolExecutor> = {
       })),
     };
   },
+  async findPartsForDiagnosis(args) {
+    const issueId = String(args?.issueId ?? "").trim();
+    const engineIdRaw = String(args?.engineId ?? "").trim();
+    const trimIdRaw = String(args?.trimId ?? "").trim();
+
+    if (!issueId) {
+      return {
+        found: false,
+        issueId,
+        message: "Missing issueId — pass an issueId from the truck knowledge layer (for example cam_phaser_rattle, spark_plug_ejection_risk, blend_door_actuator_failure).",
+        results: [],
+      };
+    }
+
+    const result = await findPartsForIssueClient(issueId, {
+      engineId: engineIdRaw ? (engineIdRaw as EngineId) : undefined,
+      trimId: trimIdRaw ? (trimIdRaw as TrimId) : undefined,
+      maxResults: 5,
+    });
+
+    return {
+      found: result.matched,
+      issueId: result.issueId,
+      issueAreaId: result.issueAreaId,
+      categoryHints: result.categoryHints,
+      subcategoryHints: result.subcategoryHints,
+      searchTermsTried: result.searchTermsTried,
+      preferredBrands: result.preferredBrands ?? [],
+      verifiedPartNumbers: result.partNumbers ?? [],
+      notes: result.notes ?? null,
+      results: result.results.map((r) => ({
+        part: r.subcategory,
+        category: r.category,
+        priceRange: r.priceRange,
+        topOptions: r.options.slice(0, 4),
+        rockautoUrl: r.rockautoUrl,
+      })),
+    };
+  },
 };
 
 export const LIVE_SESSION_TOOL_DECLARATIONS: FunctionDeclaration[] = [
@@ -942,6 +983,33 @@ export const LIVE_SESSION_TOOL_DECLARATIONS: FunctionDeclaration[] = [
         },
       },
       required: ["query"],
+      additionalProperties: false,
+    },
+  },
+  {
+    name: "findPartsForDiagnosis",
+    description:
+      "Given a diagnosed issueId (for example cam_phaser_rattle, spark_plug_ejection_risk, exhaust_manifold_tick, blend_door_actuator_failure, iwe_grind, fuel_pump_driver_module_failure, water_pump_internal_leak, alternator_failure, control_arm_failure, brake_caliper_seize, transmission_shudder_6r80) return the matching RockAuto parts — categories, subcategories, search terms, preferred brands, verified part numbers, and concrete catalog hits. Call this when an issue rule fires, a DTC code is identified, or a symptom is confidently diagnosed and the user needs to know exactly what to order. Prefer this over searchReplacementParts when you already know which failure mode is happening.",
+    parametersJsonSchema: {
+      type: "object",
+      properties: {
+        issueId: {
+          type: "string",
+          description:
+            "Issue identifier from the truck knowledge layer (see lib/knowledge/issue-parts-map.ts for the full list). Examples: cam_phaser_rattle, spark_plug_ejection_risk, exhaust_manifold_tick, blend_door_actuator_failure, iwe_grind, fuel_pump_driver_module_failure, radiator_failure_orange_coolant, water_pump_internal_leak, alternator_failure, vct_solenoid_tick, timing_chain_stretch_54, ignition_coil_failure, throttle_body_carbon, valve_cover_gasket_leak, pcv_valve_failure_54, hub_bearing_failure, imrc_stuck_butterflies, pats_no_start, epas_steering_failure, turbo_failure_ecoboost, hpfp_failure_ecoboost, boost_loss_charge_pipe, injector_failure_direct, timing_chain_stretch_ecoboost, oil_consumption_pcv, intercooler_condensation, direct_injection_carbon_buildup, control_arm_failure, tie_rod_end_failure, ball_joint_failure, sway_bar_link_failure, shock_strut_failure, brake_caliper_seize, brake_pad_wear, rotor_warp, power_steering_pump_whine, rack_pinion_leak, door_lock_actuator, window_regulator, door_ajar_sensor, thermostat_failure, fan_clutch_failure, transmission_shudder_6r80.",
+        },
+        engineId: {
+          type: "string",
+          description:
+            "Optional engine identifier (4_6l_2v, 4_6l_3v, 5_4l_3v, 6_2l_boss, 3_7l_tivct, 5_0l_coyote, 3_5l_ecoboost). Layered in via the parts linker to broaden the search.",
+        },
+        trimId: {
+          type: "string",
+          description:
+            "Optional trim identifier (xl, stx, xlt, fx2, fx4, lariat, king_ranch, platinum, harley_davidson, limited, svt_raptor). Used to add trim-specific catalog hints.",
+        },
+      },
+      required: ["issueId"],
       additionalProperties: false,
     },
   },

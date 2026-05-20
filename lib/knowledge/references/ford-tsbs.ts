@@ -29,7 +29,7 @@ export const FORD_TSB_REFERENCES: TruckReferenceRecord[] = [
     partTags: ["cam_phaser_area", "timing_cover", "vct_solenoid"],
     symptomTags: ["rattle", "ticking"],
     aliases: ["TSB 08-22-1", "cam phaser TSB", "cold start rattle TSB"],
-    excerpt: "Ford acknowledges cold-start rattle on 4.6L/5.4L 3V engines caused by cam phaser wear. The TSB recommends replacing cam phasers, timing chains, chain guides, chain tensioners, and VCT solenoids as a complete kit. Updated phaser part numbers are provided. The TSB also notes that using the correct oil (5W-20 Motorcraft synthetic blend) and filter (FL-820S) is essential for phaser longevity.",
+    excerpt: "Ford acknowledges cold-start rattle on 4.6L/5.4L 3V engines caused by cam phaser wear. The TSB recommends replacing cam phasers, timing chains, chain guides, chain tensioners, and VCT solenoids as a complete kit. Updated phaser part numbers are provided. The TSB also notes that using the correct oil (5W-20 Motorcraft synthetic blend) and filter (FL-820-S) is essential for phaser longevity.",
     inspectionHint: "Cold-start rattle that fades within 60 seconds from the front of the engine is consistent with this TSB.",
     sourceCitationKey: "ford-tsb-08-22-1-cam-phaser",
   },

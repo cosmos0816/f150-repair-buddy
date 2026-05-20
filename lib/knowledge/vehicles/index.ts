@@ -10,6 +10,7 @@ export * from "./trims";
 export * from "./raptor";
 export * from "./bulletins";
 export * from "./parts-linker";
+export * from "./years/2010";
 
 import { ALL_ENGINES } from "./engines";
 import { ALL_NONRAPTOR_TRIMS } from "./trims";

@@ -32,4 +32,22 @@ export * from "@/lib/knowledge/references/raptor-gen2-reference";
 export * from "@/lib/knowledge/references/korea-parts-shipping";
 // ── Bed & Cab knowledge ──
 export * from "@/lib/knowledge/references/bed-cab-reference";
+// ── Cross-engine comparative knowledge ──
+export * from "@/lib/knowledge/references/engine-comparison";
+export * from "@/lib/knowledge/references/multi-engine-maintenance";
+// ── Parts sourcing ──
+export * from "@/lib/knowledge/references/parts-sourcing";
+// ── Raptor (additional) ──
+export * from "@/lib/knowledge/references/raptor-modifications";
+export * from "@/lib/knowledge/references/raptor-tsbs";
+// ── Performance / lift / aesthetic ──
+export * from "@/lib/knowledge/references/performance-tuning";
+export * from "@/lib/knowledge/references/lift-kits";
+export * from "@/lib/knowledge/references/aesthetic-accessories";
+// ── Comprehensive NHTSA TSBs ──
+export * from "@/lib/knowledge/references/nhtsa-tsbs-comprehensive";
+// ── Community research codification ──
+export * from "@/lib/knowledge/references/forscan-pids";
+export * from "@/lib/knowledge/references/wiring-electrical";
+export * from "@/lib/knowledge/references/community-misdiagnoses";
 export * from "@/lib/knowledge/references/lookup";

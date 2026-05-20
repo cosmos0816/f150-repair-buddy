@@ -34,7 +34,95 @@ export type TrimId =
   | "platinum"
   | "harley_davidson"
   | "limited"
-  | "svt_raptor";
+  | "svt_raptor"
+  // Tremor was a 2014-only regional/sport package on the FX2-derived lineup.
+  // Included in TrimId for forward-compat with the years/2014.ts file. It
+  // should NOT appear in any 2010-2013 yearConfig and is documented here so
+  // future agents do not invent earlier Tremor entries.
+  | "tremor";
+
+// New union types for per-variant codification (LINEUP-PLAN Phase 1).
+// These are deliberately additive — existing CabStyle/BedLength/Drivetrain
+// remain canonical. The *Id-suffixed aliases below exist so that the
+// `VehicleVariant` interface and per-year files can use a uniform naming
+// scheme (`fooId`) without breaking existing consumers of CabStyle etc.
+
+export type CabConfigId = "regular_cab" | "supercab" | "supercrew";
+export type BedLengthId = "5_5ft" | "6_5ft" | "8ft";
+export type DrivetrainId = "4x2" | "4x4";
+export type AxleRatio = "3.15" | "3.31" | "3.55" | "3.73" | "4.10" | "4.30";
+
+// Exterior colors known to be offered across 12th-gen 2009-2014. The 2010
+// lineup uses a subset documented in years/2010.ts. Verified against Ford
+// 2010 F-150 brochure (auto-brochures.com archive) and Edmunds 2010 specs.
+export type ExteriorColorId =
+  | "oxford_white"
+  | "tuxedo_black"
+  | "ingot_silver"
+  | "sterling_grey"
+  | "royal_red"
+  | "blue_flame"
+  | "dark_blue_pearl"
+  | "vermillion_red"
+  | "sangria_red"
+  | "golden_bronze"
+  | "autumn_red"
+  | "cinnamon_glaze"
+  | "pueblo_gold"
+  | "white_platinum_tri_coat";
+
+export type InteriorColorId =
+  | "steel_grey"
+  | "medium_stone"
+  | "tan"
+  | "black_two_tone"
+  | "king_ranch_chaparral";
+
+// Optional equipment package codes for 2010. Many of these map to Ford RPO
+// codes but are stored here as friendly slugs. Year/trim availability is
+// gated inside the per-year file's variant entries.
+export type OptionPackageId =
+  | "xlt_chrome_package"
+  | "xlt_convenience_package"
+  | "fx_appearance_package"
+  | "fx_luxury_package"
+  | "max_trailer_tow"
+  | "heavy_duty_payload"
+  | "snowplow_prep"
+  | "off_road_package"
+  | "lariat_chrome_package"
+  | "lariat_luxury_package"
+  | "lariat_plus_package";
+
+// One fully-specified configuration — the smallest queryable unit. Stable
+// `variantKey` form: `${year}-${trim}-${engine}-${cab}-${bed}-${drive}` so
+// findVariant() can hit in O(1).
+export interface VehicleVariant {
+  variantKey: string;
+  year: ModelYear;
+  trim: TrimId;
+  engine: EngineId;
+  transmission: TransmissionId;
+  cab: CabConfigId;
+  bed: BedLengthId;
+  drive: DrivetrainId;
+  axleRatio: AxleRatio;
+  towPackage: boolean;
+  exteriorColorsAvailable?: ExteriorColorId[];
+  interiorColorsAvailable?: InteriorColorId[];
+  optionPackagesAvailable?: OptionPackageId[];
+  notes?: string[];
+}
+
+// Per-year aggregate. Holds the variant matrix plus per-year trim/color
+// metadata that does not belong in TrimSpec (which is year-agnostic).
+export interface YearLineup {
+  year: ModelYear;
+  variants: VehicleVariant[];
+  exteriorColorsOffered: ExteriorColorId[];
+  notableChanges: string[];
+  midYearIntroductions?: string[];
+}
 
 export type RecommendationBias = "diy_safe" | "inspect_only" | "shop_required";
 
@@ -55,7 +143,7 @@ export interface EngineSpec {
   oilCapacityQt: number;
   oilViscosity: string; // "5W-20", "5W-30"
   oilFordSpec: string;
-  oilFilterMotorcraft: string; // "FL-820S", "FL-500S", "FL-2017"
+  oilFilterMotorcraft: string; // "FL-820-S", "FL-500S", "FL-2017"
   coolantSpec: "motorcraft_gold_vc7" | "motorcraft_orange_vc3";
   coolantCapacityQt: number;
   sparkPlugMotorcraft: string;

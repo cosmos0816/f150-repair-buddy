@@ -592,7 +592,7 @@ const TRUCK_PART_SEEDS: Record<TruckPartId, TruckPartDefinition> = {
       "Look for carbon or blow-by signs around any single plug well.",
       "If you can hear a sharp pop or whistle from one cylinder area, suspect a blown plug well first on this engine.",
       "Before removing plugs: soak the wells with penetrant for 30+ minutes warm-engine, follow the Ford procedure exactly.",
-      "Use Motorcraft SP-509 or SP-515 plugs only — they are designed for the 2-piece extraction risk. Apply anti-seize to the threads on reinstall.",
+      "Use Motorcraft SP-515 plugs (updated design that supersedes SP-509). Apply anti-seize to the threads on reinstall.",
       "Never attempt spark plug removal on a cold engine — warm it up first to help break the carbon bond.",
     ],
     warningSigns: [
@@ -2228,7 +2228,7 @@ const PART_EXTRA_HINTS: Partial<Record<TruckPartId, string[]>> = {
   ],
   spark_plug: [
     "Warm the engine slightly, blow the wells clean, soak with penetrant, and follow the 3V removal procedure exactly.",
-    "If reinstalling, verify plug revision and torque spec; many owners use Motorcraft SP-509 or SP-515 depending production date and apply only the minimal anti-seize or coating guidance they have verified.",
+    "If reinstalling, use Motorcraft SP-515 (updated design that supersedes SP-509). Torque to 25 lb-ft. Apply only the minimal anti-seize or coating guidance per Ford TSB 08-7-6 — ground electrode shield, not threads.",
   ],
   cam_phaser_area: [
     "Note whether the rattle lasts 1-3 seconds or continues longer; duration matters on the 5.4 3V.",

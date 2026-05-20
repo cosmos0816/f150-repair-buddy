@@ -64,7 +64,7 @@ const ENGINE_ENTRIES: Record<EngineId, PartsLinkerEntry[]> = {
       forSystem: "engine",
       rockautoCategoryHints: ["Engine"],
       rockautoSubcategoryHints: ["Oil Filter", "Valve Cover Gasket Set", "Intake Manifold Gasket Set"],
-      searchTerms: ["FL-820S", "valve cover gasket", "intake manifold"],
+      searchTerms: ["FL-820-S", "valve cover gasket", "intake manifold"],
     },
   ],
   "4_6l_3v": [
@@ -80,7 +80,7 @@ const ENGINE_ENTRIES: Record<EngineId, PartsLinkerEntry[]> = {
       forSystem: "engine",
       rockautoCategoryHints: ["Engine"],
       rockautoSubcategoryHints: ["Timing Chain Kit", "Cam Phaser", "VCT Solenoid", "Oil Filter"],
-      searchTerms: ["cam phaser", "timing chain", "VCT solenoid", "FL-820S"],
+      searchTerms: ["cam phaser", "timing chain", "VCT solenoid", "FL-820-S"],
     },
   ],
   "5_4l_3v": [
@@ -102,7 +102,7 @@ const ENGINE_ENTRIES: Record<EngineId, PartsLinkerEntry[]> = {
         "Oil Filter",
         "Valve Cover Gasket Set",
       ],
-      searchTerms: ["cam phaser", "timing chain kit 5.4", "VCT solenoid", "FL-820S"],
+      searchTerms: ["cam phaser", "timing chain kit 5.4", "VCT solenoid", "FL-820-S"],
     },
     {
       forEngine: "5_4l_3v",
