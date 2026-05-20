@@ -96,6 +96,28 @@ export const TRUCK_PART_ALIAS_GROUPS: Partial<Record<TruckPartId, string[]>> = {
   driveshaft_u_joint: ["드라이브샤프트", "유니버셜 조인트", "U조인트", "프로펠러 샤프트", "driveshaft", "u-joint"],
   caliper_area: ["캘리퍼", "브레이크 캘리퍼", "캘리퍼 브라켓", "caliper", "brake caliper"],
   catalytic_converter_area: ["촉매 변환기", "캐탈리틱", "배기 촉매", "catalytic converter", "cat"],
+  // ── EcoBoost-specific parts ──
+  turbocharger: ["터보", "터보차저", "터보 충전기", "BorgWarner K03", "turbo", "turbocharger", "twin turbo"],
+  intercooler: ["인터쿨러", "차지 에어 쿨러", "CAC", "중간 냉각기", "intercooler", "charge air cooler"],
+  wastegate: ["웨이스트게이트", "배기 바이패스 밸브", "wastegate", "waste gate", "boost control"],
+  turbo_oil_feed_line: ["터보 오일 라인", "오일 피드 라인", "터보 급유 라인", "turbo oil feed", "turbo oil supply"],
+  turbo_oil_return_line: ["터보 오일 리턴", "오일 드레인 라인", "turbo oil return", "turbo oil drain"],
+  charge_pipe: ["차지 파이프", "부스트 파이프", "인터쿨러 파이프", "charge pipe", "boost pipe", "intercooler pipe"],
+  blow_off_valve: ["블로우 오프 밸브", "BOV", "바이패스 밸브", "blow off valve", "bypass valve"],
+  high_pressure_fuel_pump: ["고압 연료 펌프", "HPFP", "직분사 펌프", "high pressure fuel pump", "DI fuel pump"],
+  direct_injector: ["직분사 인젝터", "GDI 인젝터", "고압 인젝터", "direct injector", "GDI injector"],
+  oil_catch_can: ["오일 캐치캔", "오일 분리기", "캐치캔", "JLT", "catch can", "oil separator"],
+  pcv_valve: ["PCV 밸브", "블로바이 밸브", "크랭크케이스 환기", "PCV valve", "crankcase ventilation"],
+  water_pump_internal: ["내부 워터펌프", "인터널 워터펌프", "타이밍 체인 워터펌프", "internal water pump", "chain-driven water pump"],
+  // ── Bed & cab parts ──
+  tailgate: ["테일게이트", "뒷문", "적재함 문", "tailgate", "tail gate"],
+  bed_floor: ["적재함 바닥", "베드 바닥", "카고 플로어", "bed floor", "cargo floor"],
+  bed_tie_down: ["타이다운", "적재 고정", "카고 클리트", "BoxLink", "tie down", "cargo cleat"],
+  tonneau_cover: ["토노 커버", "베드 커버", "적재함 커버", "tonneau", "bed cover", "truck cover"],
+  bed_liner: ["베드 라이너", "적재함 라이너", "스프레이 라이너", "bed liner", "bedliner", "Line-X", "Rhino"],
+  tailgate_damper: ["테일게이트 댐퍼", "테일게이트 어시스트", "tailgate damper", "tailgate assist"],
+  tailgate_cable: ["테일게이트 케이블", "테일게이트 와이어", "tailgate cable", "tailgate wire"],
+  tailgate_latch: ["테일게이트 래치", "테일게이트 핸들", "테일게이트 잠금", "tailgate latch", "tailgate handle"],
 };
 
 export const TRUCK_SYSTEM_ALIAS_GROUPS: Partial<Record<TruckSystemId, string[]>> = {
@@ -103,6 +125,8 @@ export const TRUCK_SYSTEM_ALIAS_GROUPS: Partial<Record<TruckSystemId, string[]>>
   connectors_harness: ["connectors", "harness", "tabs", "corrosion"],
   drivetrain_4wd: ["drivetrain", "4wd", "axle", "driveshaft", "transfer case"],
   suspension_steering: TRUCK_ALIAS_INDEX.suspension_steering,
+  turbo_boost: ["turbo", "boost", "터보", "부스트", "과급", "intercooler", "wastegate"],
+  bed_cargo: ["bed", "cargo", "적재함", "베드", "카고", "tailgate", "tonneau"],
 };
 
 export const TRUCK_SYMPTOM_ALIAS_GROUPS: Partial<Record<TruckSymptomId, string[]>> = {
@@ -110,4 +134,10 @@ export const TRUCK_SYMPTOM_ALIAS_GROUPS: Partial<Record<TruckSymptomId, string[]
   hiss: TRUCK_ALIAS_INDEX.sound_hiss,
   rattle: TRUCK_ALIAS_INDEX.sound_rattle,
   ticking: TRUCK_ALIAS_INDEX.sound_tick,
+  turbo_whine: ["turbo whine", "turbo siren", "turbo noise", "터보 소음", "터보 울림", "사이렌 소리"],
+  boost_loss: ["boost loss", "power loss", "no boost", "부스트 저하", "출력 저하", "터보 안 됨"],
+  stumble: ["stumble", "hesitation", "bog", "stutter", "스텀블", "머뭇거림", "주저"],
+  oil_consumption: ["oil consumption", "burning oil", "uses oil", "오일 소모", "오일 태움"],
+  white_smoke: ["white smoke", "steam", "coolant smoke", "흰 연기", "수증기"],
+  blue_smoke: ["blue smoke", "oil smoke", "turbo smoke", "파란 연기", "오일 연기"],
 };

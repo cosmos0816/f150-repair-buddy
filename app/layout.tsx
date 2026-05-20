@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 
+import { VehicleProvider } from "@/lib/context/vehicle-context";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
@@ -90,7 +91,9 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/icon-192.png" />
       </head>
       <body className="antialiased">
+        <VehicleProvider>
         {children}
+        </VehicleProvider>
         <script
           dangerouslySetInnerHTML={{
             __html: `

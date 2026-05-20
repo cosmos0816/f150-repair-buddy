@@ -51,7 +51,29 @@ export type TruckPartId =
   | "timing_cover"
   | "vct_solenoid"
   | "fuel_pump_driver_module"
-  | "iwe_solenoid_actuator";
+  | "iwe_solenoid_actuator"
+  // ── EcoBoost-specific parts ──
+  | "turbocharger"
+  | "intercooler"
+  | "wastegate"
+  | "turbo_oil_feed_line"
+  | "turbo_oil_return_line"
+  | "charge_pipe"
+  | "blow_off_valve"
+  | "high_pressure_fuel_pump"
+  | "direct_injector"
+  | "oil_catch_can"
+  | "pcv_valve"
+  | "water_pump_internal"
+  // ── Bed & cab parts ──
+  | "tailgate"
+  | "bed_floor"
+  | "bed_tie_down"
+  | "tonneau_cover"
+  | "bed_liner"
+  | "tailgate_damper"
+  | "tailgate_cable"
+  | "tailgate_latch";
 
 export type TruckSymptomId =
   | "leak"
@@ -71,7 +93,14 @@ export type TruckSymptomId =
   | "vibration"
   | "exhaust_tick"
   | "clunk"
-  | "pull";
+  | "pull"
+  // ── EcoBoost-specific symptoms ──
+  | "turbo_whine"
+  | "boost_loss"
+  | "stumble"
+  | "oil_consumption"
+  | "white_smoke"
+  | "blue_smoke";
 
 export type TruckInspectionTargetId =
   | "front_accessory_drive_path"
@@ -98,7 +127,15 @@ export type TruckInspectionTargetId =
   | "headlamp_housing_and_mount"
   | "taillamp_housing_and_mount"
   | "engine_top_timing_cover"
-  | "frame_rust_and_seam";
+  | "frame_rust_and_seam"
+  // ── EcoBoost-specific inspection targets ──
+  | "turbo_and_wastegate"
+  | "intercooler_and_piping"
+  | "turbo_oil_lines"
+  // ── Bed & cab inspection targets ──
+  | "bed_floor_and_drain"
+  | "tailgate_hinge_and_cable"
+  | "bed_wheel_well_rust";
 
 export type TruckIssueAreaId =
   | "accessory_drive_belt_path"
@@ -118,7 +155,17 @@ export type TruckIssueAreaId =
   | "steering_linkage_wear"
   | "drivetrain_leak_or_boot"
   | "underbody_frame_corrosion"
-  | "lamp_housing_moisture_or_mount";
+  | "lamp_housing_moisture_or_mount"
+  // ── EcoBoost-specific issue areas ──
+  | "turbo_boost_leak"
+  | "turbo_bearing_failure"
+  | "intercooler_condensation"
+  | "timing_chain_stretch_ecoboost"
+  | "direct_injection_carbon_buildup"
+  // ── Bed & cab issue areas ──
+  | "bed_rust_and_drain"
+  | "tailgate_mechanism_wear"
+  | "rear_window_leak";
 
 export type TruckSystemId =
   | "engine_mechanical"
@@ -139,7 +186,11 @@ export type TruckSystemId =
   | "brakes"
   | "drivetrain_4wd"
   | "underbody"
-  | "cabin_controls";
+  | "cabin_controls"
+  // ── EcoBoost-specific systems ──
+  | "turbo_boost"
+  // ── Bed & cab systems ──
+  | "bed_cargo";
 
 export type TruckEvidenceCueSource =
   | "bookmark"

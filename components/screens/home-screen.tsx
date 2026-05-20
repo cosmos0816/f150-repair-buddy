@@ -6,6 +6,7 @@ import { MobileAppShell } from "@/components/shell/mobile-app-shell";
 import { ScreenFrame } from "@/components/shell/screen-frame";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { VehicleIndicator } from "@/components/vehicle-selector";
 import {
   DEFAULT_SESSION_LANGUAGE,
   getHomeCopy,
@@ -33,6 +34,7 @@ export function HomeScreen({ providerMode = "mock" }: HomeScreenProps = {}) {
         description={homeCopy.description}
       >
         <Card className="space-y-4">
+          <VehicleIndicator />
           <div className="flex items-center justify-between gap-3 rounded-[1.2rem] border border-border/60 bg-panel px-3 py-3">
             <p className="text-[0.7rem] font-semibold tracking-[0.14em] text-muted uppercase">
               {sessionCopy.language}
@@ -66,6 +68,12 @@ export function HomeScreen({ providerMode = "mock" }: HomeScreenProps = {}) {
             </Button>
             <Button fullWidth href="/notes" variant="ghost">
               {homeCopy.notes}
+            </Button>
+            <Button fullWidth href={`/explore?lang=${sessionLanguage}`} variant="secondary">
+              {sessionLanguage === "ko" ? "지식 둘러보기" : "Explore Knowledge"}
+            </Button>
+            <Button fullWidth href="/designs" variant="ghost">
+              Design Samples
             </Button>
           </div>
         </Card>

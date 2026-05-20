@@ -9,6 +9,28 @@ import { NHTSA_TSB_SUMMARY_REFERENCES } from "@/lib/knowledge/references/nhtsa-t
 import { REPAIR_COST_REFERENCES } from "@/lib/knowledge/references/repair-costs";
 import { REPAIR_NOTE_REFERENCES } from "@/lib/knowledge/references/repair-notes";
 import { TORQUE_SPEC_REFERENCES } from "@/lib/knowledge/references/torque-specs";
+// ── EcoBoost knowledge ──
+import { ECOBOOST_DTC_CODE_REFERENCES } from "@/lib/knowledge/references/ecoboost-dtc-codes";
+import { ECOBOOST_FLUID_SPEC_REFERENCES } from "@/lib/knowledge/references/ecoboost-fluid-specs";
+import { ECOBOOST_FORUM_REFERENCES } from "@/lib/knowledge/references/ecoboost-forum-knowledge";
+import { ECOBOOST_KNOWN_ISSUE_REFERENCES } from "@/lib/knowledge/references/ecoboost-known-issues";
+import { ECOBOOST_REPAIR_COST_REFERENCES } from "@/lib/knowledge/references/ecoboost-repair-costs";
+import { ECOBOOST_TORQUE_SPEC_REFERENCES } from "@/lib/knowledge/references/ecoboost-torque-specs";
+import { ECOBOOST_MAINTENANCE_SCHEDULE_REFERENCES } from "@/lib/knowledge/references/ecoboost-maintenance-schedule";
+import { ECOBOOST_TSB_REFERENCES } from "@/lib/knowledge/references/ecoboost-tsbs";
+// ── Coyote knowledge ──
+import { COYOTE_KNOWN_ISSUE_REFERENCES } from "@/lib/knowledge/references/coyote-known-issues";
+import { COYOTE_SPEC_REFERENCES } from "@/lib/knowledge/references/coyote-specs";
+// ── Boss 6.2L knowledge ──
+import { BOSS_62_REFERENCES } from "@/lib/knowledge/references/boss-62-reference";
+// ── General (all-engine) knowledge ──
+import { GENERAL_DTC_CODE_REFERENCES } from "@/lib/knowledge/references/general-dtc-codes";
+// ── Raptor Gen 2 knowledge ──
+import { RAPTOR_GEN2_REFERENCES } from "@/lib/knowledge/references/raptor-gen2-reference";
+// ── Korea parts shipping ──
+import { KOREA_PARTS_SHIPPING_REFERENCES } from "@/lib/knowledge/references/korea-parts-shipping";
+// ── Bed & Cab knowledge ──
+import { BED_CAB_REFERENCES } from "@/lib/knowledge/references/bed-cab-reference";
 import type { TruckReferenceRecord, TruckReferenceSearchResult, TruckReferenceSourceType } from "@/lib/knowledge/references/types";
 
 const TRUCK_REFERENCE_RECORDS: TruckReferenceRecord[] = [
@@ -23,6 +45,28 @@ const TRUCK_REFERENCE_RECORDS: TruckReferenceRecord[] = [
   ...TORQUE_SPEC_REFERENCES,
   ...FLUID_SPEC_REFERENCES,
   ...DTC_CODE_REFERENCES,
+  // ── EcoBoost ──
+  ...ECOBOOST_DTC_CODE_REFERENCES,
+  ...ECOBOOST_FLUID_SPEC_REFERENCES,
+  ...ECOBOOST_FORUM_REFERENCES,
+  ...ECOBOOST_KNOWN_ISSUE_REFERENCES,
+  ...ECOBOOST_REPAIR_COST_REFERENCES,
+  ...ECOBOOST_TORQUE_SPEC_REFERENCES,
+  ...ECOBOOST_MAINTENANCE_SCHEDULE_REFERENCES,
+  ...ECOBOOST_TSB_REFERENCES,
+  // ── Coyote ──
+  ...COYOTE_KNOWN_ISSUE_REFERENCES,
+  ...COYOTE_SPEC_REFERENCES,
+  // ── Boss 6.2L ──
+  ...BOSS_62_REFERENCES,
+  // ── General (all-engine) ──
+  ...GENERAL_DTC_CODE_REFERENCES,
+  // ── Raptor Gen 2 ──
+  ...RAPTOR_GEN2_REFERENCES,
+  // ── Korea parts shipping ──
+  ...KOREA_PARTS_SHIPPING_REFERENCES,
+  // ── Bed & Cab ──
+  ...BED_CAB_REFERENCES,
 ];
 
 function normalize(value: string) {

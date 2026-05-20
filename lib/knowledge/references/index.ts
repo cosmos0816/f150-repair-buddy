@@ -10,4 +10,26 @@ export * from "@/lib/knowledge/references/known-issues";
 export * from "@/lib/knowledge/references/torque-specs";
 export * from "@/lib/knowledge/references/fluid-specs";
 export * from "@/lib/knowledge/references/dtc-codes";
+// ── EcoBoost knowledge ──
+export * from "@/lib/knowledge/references/ecoboost-dtc-codes";
+export * from "@/lib/knowledge/references/ecoboost-fluid-specs";
+export * from "@/lib/knowledge/references/ecoboost-forum-knowledge";
+export * from "@/lib/knowledge/references/ecoboost-known-issues";
+export * from "@/lib/knowledge/references/ecoboost-maintenance-schedule";
+export * from "@/lib/knowledge/references/ecoboost-repair-costs";
+export * from "@/lib/knowledge/references/ecoboost-torque-specs";
+export * from "@/lib/knowledge/references/ecoboost-tsbs";
+// ── Coyote knowledge ──
+export * from "@/lib/knowledge/references/coyote-known-issues";
+export * from "@/lib/knowledge/references/coyote-specs";
+// ── Boss 6.2L knowledge ──
+export * from "@/lib/knowledge/references/boss-62-reference";
+// ── General (all-engine) knowledge ──
+export * from "@/lib/knowledge/references/general-dtc-codes";
+// ── Raptor Gen 2 knowledge ──
+export * from "@/lib/knowledge/references/raptor-gen2-reference";
+// ── Korea parts shipping ──
+export * from "@/lib/knowledge/references/korea-parts-shipping";
+// ── Bed & Cab knowledge ──
+export * from "@/lib/knowledge/references/bed-cab-reference";
 export * from "@/lib/knowledge/references/lookup";

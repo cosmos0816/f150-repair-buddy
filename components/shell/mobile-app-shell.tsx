@@ -2,7 +2,7 @@ import { APP_CONFIG } from "@/lib/config/app-config";
 import type { ReactNode } from "react";
 
 type MobileAppShellProps = {
-  activeRoute: "home" | "session" | "result" | "notes";
+  activeRoute: "home" | "session" | "result" | "notes" | "designs" | "explore";
   children: ReactNode;
   immersive?: boolean;
 };
@@ -12,6 +12,8 @@ const routeLabels: Record<MobileAppShellProps["activeRoute"], string> = {
   session: "Session",
   result: "Result",
   notes: "Notes",
+  designs: "Designs",
+  explore: "Explore",
 };
 
 export function MobileAppShell({

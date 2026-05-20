@@ -1942,7 +1942,6 @@ export function SessionScreen({
           ) : (
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#202728_0%,#0b0d0e_72%)]" />
           )}
-          <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(5,7,8,0.86)_0%,rgba(5,7,8,0.22)_18%,rgba(5,7,8,0)_42%,rgba(5,7,8,0.22)_68%,rgba(5,7,8,0.92)_100%)]" />
         </button>
 
         {/* Top error bar — sits above everything when the conversation fails */}

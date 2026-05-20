@@ -180,6 +180,55 @@ const KOREAN_GROUNDING_CUES: Array<{
     symptomIds: ["vibration", "rattle"],
     terms: ["IWE", "허브 그라인딩", "4WD 소음", "프론트 허브", "진공 솔레노이드"],
   },
+  // ── EcoBoost-specific Korean grounding cues ──
+  {
+    issueAreaIds: ["turbo_bearing_failure", "turbo_boost_leak"],
+    partIds: ["turbocharger", "wastegate"],
+    symptomIds: ["turbo_whine", "rattle"],
+    terms: ["터보", "웨이스트게이트", "터보 소리", "휘파람 소리"],
+  },
+  {
+    issueAreaIds: ["intercooler_condensation"],
+    partIds: ["intercooler", "charge_pipe"],
+    symptomIds: ["stumble", "misfire", "white_smoke"],
+    terms: ["인터쿨러", "차지 에어", "물 튀김", "시동 걸릴 때 떨림"],
+  },
+  {
+    issueAreaIds: ["timing_chain_stretch_ecoboost"],
+    partIds: ["turbocharger", "high_pressure_fuel_pump"],
+    symptomIds: ["rattle", "ticking", "rough_idle"],
+    terms: ["체인 늘어남", "에코부스트 체인", "차가울 때 소리"],
+  },
+  {
+    issueAreaIds: ["turbo_bearing_failure"],
+    partIds: ["turbo_oil_feed_line", "turbo_oil_return_line", "turbocharger"],
+    symptomIds: ["blue_smoke", "oil_consumption"],
+    terms: ["터보 오일", "오일 라인", "연기"],
+  },
+  {
+    issueAreaIds: ["turbo_boost_leak"],
+    partIds: ["charge_pipe", "intercooler", "blow_off_valve"],
+    symptomIds: ["boost_loss", "hiss"],
+    terms: ["부스트 누출", "출력 저하", "쉭 소리", "힘 빠짐"],
+  },
+  {
+    issueAreaIds: ["direct_injection_carbon_buildup"],
+    partIds: ["direct_injector", "pcv_valve", "oil_catch_can"],
+    symptomIds: ["stumble", "rough_idle", "misfire"],
+    terms: ["카본", "탄소 축적", "출력 약해짐"],
+  },
+  {
+    issueAreaIds: ["intercooler_condensation", "coolant_leak_source"],
+    partIds: ["water_pump_internal", "coolant_hose"],
+    symptomIds: ["leak", "coolant_smell", "oil_consumption"],
+    terms: ["워터펌프", "냉각수 감소", "오일에 물"],
+  },
+  {
+    issueAreaIds: ["direct_injection_carbon_buildup"],
+    partIds: ["oil_catch_can", "pcv_valve"],
+    symptomIds: ["rough_idle", "oil_consumption"],
+    terms: ["캐치캔", "오일 분리기", "블로바이"],
+  },
 ];
 
 function normalizeGroundingText(value: string) {

@@ -1,6 +1,19 @@
 export type RepairBuddyMode = "mock" | "gemini";
 
 export const SUPPORTED_VEHICLE_ID = "2010-ford-f150-5.4-triton" as const;
+export const ECOBOOST_VEHICLE_ID = "2011-2014-ford-f150-3.5-ecoboost" as const;
+export const COYOTE_VEHICLE_ID = "2011-2014-ford-f150-5.0-coyote" as const;
+export const BOSS_VEHICLE_ID = "2011-2014-ford-f150-6.2-boss" as const;
+export const RAPTOR_GEN2_VEHICLE_ID = "2017-2020-ford-f150-raptor-3.5-ecoboost-ho" as const;
+export const F150_GENERAL_VEHICLE_ID = "2009-2014-ford-f150-general" as const;
+
+export type SupportedVehicleId =
+  | typeof SUPPORTED_VEHICLE_ID
+  | typeof ECOBOOST_VEHICLE_ID
+  | typeof COYOTE_VEHICLE_ID
+  | typeof BOSS_VEHICLE_ID
+  | typeof RAPTOR_GEN2_VEHICLE_ID
+  | typeof F150_GENERAL_VEHICLE_ID;
 
 function resolveMode(value: string | undefined): RepairBuddyMode {
   return value === "gemini" ? "gemini" : "mock";
@@ -16,4 +29,41 @@ export const APP_CONFIG = {
     model: "F-150",
     engine: "5.4 Triton",
   },
+  supportedVehicles: [
+    {
+      id: SUPPORTED_VEHICLE_ID,
+      year: "2010",
+      make: "Ford",
+      model: "F-150",
+      engine: "5.4L 3V Triton V8",
+    },
+    {
+      id: ECOBOOST_VEHICLE_ID,
+      year: "2011-2014",
+      make: "Ford",
+      model: "F-150",
+      engine: "3.5L EcoBoost V6",
+    },
+    {
+      id: COYOTE_VEHICLE_ID,
+      year: "2011-2014",
+      make: "Ford",
+      model: "F-150",
+      engine: "5.0L Coyote V8",
+    },
+    {
+      id: BOSS_VEHICLE_ID,
+      year: "2011-2014",
+      make: "Ford",
+      model: "F-150",
+      engine: "6.2L Boss V8",
+    },
+    {
+      id: RAPTOR_GEN2_VEHICLE_ID,
+      year: "2017-2020",
+      make: "Ford",
+      model: "F-150 Raptor",
+      engine: "3.5L EcoBoost HO V6 (Raptor)",
+    },
+  ],
 } as const;

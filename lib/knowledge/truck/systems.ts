@@ -213,4 +213,26 @@ export const TRUCK_SYSTEM_GROUPS: Record<
     symptomIds: ["ticking", "rattle"],
     inspectionTargetIds: ["engine_top_timing_cover", "front_accessory_drive_path"],
   },
+  turbo_boost: {
+    id: "turbo_boost",
+    label: "Turbo / Boost (EcoBoost)",
+    aliases: ["turbo", "boost", "ecoboost turbo", "twin turbo", "turbocharger system"],
+    summary:
+      "3.5L EcoBoost twin-turbo system including turbochargers, intercooler, charge piping, wastegates, and oil feed/return lines. Boost leaks, turbo bearing wear, and intercooler condensation are the most common concerns.",
+    inspectionFocus: ["turbo housing and wastegate actuator", "charge pipe connections", "intercooler end tanks and piping", "turbo oil feed and return lines"],
+    partIds: ["turbocharger", "intercooler", "wastegate", "turbo_oil_feed_line", "turbo_oil_return_line", "charge_pipe", "blow_off_valve", "high_pressure_fuel_pump"],
+    symptomIds: ["turbo_whine", "boost_loss", "oil_consumption", "white_smoke", "blue_smoke"],
+    inspectionTargetIds: ["turbo_and_wastegate", "intercooler_and_piping", "turbo_oil_lines"],
+  },
+  bed_cargo: {
+    id: "bed_cargo",
+    label: "Bed / Cargo",
+    aliases: ["truck bed", "cargo bed", "bed area", "tailgate area", "bed floor"],
+    summary:
+      "Truck bed components including the bed floor, tie-downs, tailgate mechanism, tonneau cover, bed liner, and drain plugs. Rust at the bed floor drain holes and tailgate mechanism wear are the most common issues on high-mileage F-150s.",
+    inspectionFocus: ["bed floor and drain holes", "tailgate hinge and cable condition", "bed wheel well rust", "tie-down anchor condition"],
+    partIds: ["tailgate", "bed_floor", "bed_tie_down", "tonneau_cover", "bed_liner", "tailgate_damper", "tailgate_cable", "tailgate_latch"],
+    symptomIds: ["rust", "clunk", "rattle"],
+    inspectionTargetIds: ["bed_floor_and_drain", "tailgate_hinge_and_cable", "bed_wheel_well_rust"],
+  },
 };

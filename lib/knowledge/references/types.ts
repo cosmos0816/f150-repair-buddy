@@ -1,7 +1,7 @@
-import { SUPPORTED_VEHICLE_ID } from "@/lib/config/app-config";
+import type { SupportedVehicleId } from "@/lib/config/app-config";
 import type { TruckIssueAreaId, TruckPartId, TruckSymptomId, TruckSystemId } from "@/lib/knowledge/types";
 
-export type TruckReferenceVehicleScope = typeof SUPPORTED_VEHICLE_ID;
+export type TruckReferenceVehicleScope = SupportedVehicleId;
 
 export type TruckReferenceSourceType =
   | "owner_manual"
