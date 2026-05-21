@@ -5,12 +5,13 @@ import { VehicleProvider } from "@/lib/context/vehicle-context";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://f150-repair-buddy.vercel.app"),
   title: {
     default: "F-150 Repair Buddy",
     template: "%s | F-150 Repair Buddy",
   },
   description:
-    "AI-powered repair triage for the 2010 Ford F-150 5.4L Triton V8. Live camera inspection, voice diagnosis, DTC lookup, torque specs, and Korean mechanic reports.",
+    "AI-powered repair triage for the 12th-gen Ford F-150 (2009-2014). Live camera inspection, voice diagnosis, DTC lookup, torque specs, Korean mechanic reports, RockAuto parts integration.",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "F-150 Repair Buddy",
     description:
-      "AI-powered repair triage for the 2010 Ford F-150 5.4L Triton V8. Point your camera, talk to the buddy, get a diagnosis.",
+      "AI-powered repair triage for the 12th-gen Ford F-150 (2009-2014). Point your camera, talk to the buddy, get a diagnosis.",
     url: "https://f150-repair-buddy.vercel.app",
     siteName: "F-150 Repair Buddy",
     images: [
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "F-150 Repair Buddy",
     description:
-      "AI-powered repair triage for the 2010 Ford F-150 5.4L Triton V8.",
+      "AI-powered repair triage for the 12th-gen Ford F-150 (2009-2014).",
     images: ["/og-image.png"],
   },
   robots: {
@@ -56,17 +57,30 @@ export const metadata: Metadata = {
   keywords: [
     "F-150",
     "Ford F-150",
+    "2009 F-150",
     "2010 F-150",
+    "2011 F-150",
+    "2012 F-150",
+    "2013 F-150",
+    "2014 F-150",
     "5.4 Triton",
     "5.4L V8",
+    "3.5 EcoBoost",
+    "5.0 Coyote",
+    "6.2 Boss",
+    "SVT Raptor",
+    "F-150 Raptor",
+    "12th gen F-150",
     "repair buddy",
     "truck repair",
     "cam phaser",
-    "spark plug",
+    "spark plug ejection",
     "DTC lookup",
     "torque specs",
     "F150 maintenance",
     "DIY truck repair",
+    "RockAuto parts",
+    "Korean F-150",
   ],
 };
 

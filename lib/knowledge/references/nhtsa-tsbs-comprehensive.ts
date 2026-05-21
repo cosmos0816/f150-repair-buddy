@@ -13,15 +13,23 @@
 // - Suspension, steering, EPB, AdvanceTrac, TPMS TSBs
 // - SYNC infotainment software TSBs
 //
-// Verification notes:
-// - Real TSBs are dated using Ford's nn-n-n (pre-2014) or nn-nnnn (2014+)
-//   numbering scheme. Pre-2014 numbering: YY-issue-sequence. 2014+ numbering:
-//   YY-NNNN (four-digit sequence).
-// - Any TSB number that the author could not confidently verify against
-//   training-knowledge sources is marked with a `// VERIFY` comment.
-//   Downstream consumers should treat VERIFY-flagged entries as candidates
-//   that still need cross-checking against Ford's eTIS / NHTSA bulletin DB
-//   before being shown to users as authoritative.
+// Verification notes (UPDATED 2026-05-21):
+// - Spot-check via WebSearch revealed that several TSB NUMBERS in this file
+//   are SYNTHESIZED / WRONG, but the underlying ISSUE descriptions are real.
+//   Confirmed wrong numbers (corrected below where possible):
+//     * 14-0067 (6R80 harsh shift) → real number is 13-6-8 (high gear engagement),
+//       plus later TSB 16-0015 / 15-0142 for hard-shift updates
+//     * 14-0210 (EcoBoost intercooler condensation) → real number is 13-8-1
+//       (also seen as 13-08-01) and 12-10-19 (earlier deflector plate)
+//     * 13-7-1 (Coyote oil consumption) → the canonical Coyote oil-consumption
+//       TSB is 19-2365 (for 2018-2020 5.0L); 2011-2012 Coyote did not have a
+//       dedicated oil-consumption TSB beyond TSB 11-7-7 which is about
+//       unauthorized modifications, not oil burn.
+// - All other entries below still carry `// VERIFY` and should be treated as
+//   plausible-but-not-authoritative until cross-checked against Ford eTIS or
+//   nhtsa.gov manufacturer-communication search.
+// - The `partTags` array uses only TruckPartId/ExtendedTruckPartId values from
+//   lib/knowledge/types.ts.
 // - The `partTags` array uses only TruckPartId values defined in
 //   lib/knowledge/types.ts. Where a TSB concerns parts that are not in
 //   the existing TruckPartId catalog (e.g. blend door actuator, sway bar
@@ -42,10 +50,10 @@ export const NHTSA_COMPREHENSIVE_TSB_REFERENCES: TruckReferenceRecord[] = [
   // 6R80 TRANSMISSION
   // ─────────────────────────────────────────────────────────────────────
   {
-    id: "ford-tsb-14-0067-6r80-harsh-shift", // VERIFY exact TSB number against Ford eTIS
+    id: "ford-tsb-13-6-8-6r80-high-gear-engagement", // VERIFIED 2026-05-21: real TSB 13-6-8 (corrected from synthesized 14-0067)
     sourceType: "ford_tsb",
-    sourceLabel: "Ford TSB 14-0067",
-    title: "6R80 harsh 1-2 or 2-3 upshift after cold start",
+    sourceLabel: "Ford TSB 13-6-8 (later updates 16-0015 / 15-0142)",
+    title: "6R80 harsh 1-2 or 2-3 upshift + high-gear engagement (TSB 13-6-8)",
     vehicleScope: F150_GENERAL_VEHICLE_ID,
     systemTags: ["drivetrain_4wd"],
     issueAreaIds: [],
@@ -167,35 +175,41 @@ export const NHTSA_COMPREHENSIVE_TSB_REFERENCES: TruckReferenceRecord[] = [
   // 3.5L ECOBOOST — additional moisture / condensation / plug TSBs
   // ─────────────────────────────────────────────────────────────────────
   {
-    id: "ford-tsb-14-0210-ecoboost-intercooler-condensation", // VERIFY exact TSB number
+    id: "ford-tsb-13-8-1-ecoboost-intercooler-condensation", // VERIFIED 2026-05-21: real TSB 13-8-1 (also 13-08-01); earlier deflector-plate TSB is 12-10-19. Synthesized "14-0210" was wrong.
     sourceType: "ford_tsb",
-    sourceLabel: "Ford TSB 14-0210",
-    title: "3.5L EcoBoost MIL with P0299 / misfire after high-humidity drive",
+    sourceLabel: "Ford TSB 13-8-1 (deflector + PCM reflash)",
+    title: "3.5L EcoBoost MIL with P0299 / misfire after high-humidity drive (TSB 13-8-1)",
     vehicleScope: ECOBOOST_VEHICLE_ID,
     systemTags: ["turbo_boost", "fuel_air_metering"],
     issueAreaIds: ["intercooler_condensation"],
     partTags: ["intercooler", "charge_pipe"],
     symptomTags: ["misfire", "stumble", "boost_loss"],
     aliases: [
-      "TSB 14-0210",
+      "TSB 13-8-1",
+      "TSB 13-08-01",
+      "TSB 12-10-19",
       "EcoBoost condensation MIL",
       "P0299 humidity",
       "morning misfire EcoBoost",
       "intercooler drip",
+      "deflector plate",
     ],
     excerpt:
-      "TSB 14-0210 (2014): Addresses MIL with P0299 (turbo underboost) and/or " +
-      "P0301-P0306 misfire DTCs following extended idle in cool/humid weather. " +
-      "Supersedes the earlier intercooler-related TSB 14-0130 for 2014 model " +
-      "year specifically. Inspect the cold-side intercooler-to-throttle-body " +
-      "charge pipe for accumulated water. Install the revised intercooler " +
-      "(FL3Z-6K775-A) with improved internal drainage. Some shops also relocate " +
-      "the IAT2 sensor to the cold-side pipe for better condensation tolerance.",
+      "TSB 13-8-1 (2013, also referenced as 13-08-01): Addresses MIL with " +
+      "P0299 (turbo underboost) and/or P0301-P0306 misfire DTCs following " +
+      "extended idle in cool/humid weather on 2011-2013 3.5L EcoBoost F-150. " +
+      "Earlier related TSB 12-10-19 (2012) introduced the intercooler deflector " +
+      "plate. Fix: install the revised intercooler with improved internal " +
+      "drainage AND apply the PCM reflash that adjusts charge-air handling. " +
+      "Inspect the cold-side intercooler-to-throttle-body charge pipe for " +
+      "accumulated water. Drilling a 1/16\" drain hole in the bottom of the " +
+      "intercooler is a community-popular DIY mitigation but is NOT in the " +
+      "Ford TSB procedure.",
     inspectionHint:
       "Disconnect the cold-side charge pipe at the throttle body after the truck " +
       "has sat overnight in humid weather. Tip the pipe down — if water drips " +
       "out, condensation is confirmed.",
-    sourceCitationKey: "ford-tsb-14-0210",
+    sourceCitationKey: "ford-tsb-13-8-1",
   },
   {
     id: "ford-tsb-13-3-7-ecoboost-spark-plug-procedure", // VERIFY exact TSB number
@@ -237,37 +251,44 @@ export const NHTSA_COMPREHENSIVE_TSB_REFERENCES: TruckReferenceRecord[] = [
   // 5.0L COYOTE — oil consumption + intake manifold
   // ─────────────────────────────────────────────────────────────────────
   {
-    id: "ford-tsb-13-7-1-coyote-oil-consumption", // VERIFY exact TSB number
-    sourceType: "ford_tsb",
-    sourceLabel: "Ford TSB 13-7-1",
-    title: "5.0L Coyote oil consumption — measurement procedure and acceptable spec",
+    id: "coyote-oil-consumption-no-dedicated-tsb-2011-2014", // VERIFIED 2026-05-21: NO dedicated Ford TSB exists for 2011-2014 5.0L oil consumption. The canonical Coyote oil-burn TSB (19-2365) is for 2018-2020 GEN 3 Coyote, NOT the 2011-2014 Gen 1 in 12th-gen F-150. Synthesized "13-7-1" was wrong. The 2011-2012 Gen 1 Coyote did burn oil — see TSB 11-7-7 about unauthorized modifications (different scope) and community/lawsuit references.
+    sourceType: "known_issue",
+    sourceLabel: "Coyote 2011-2014 oil consumption — no Ford TSB",
+    title: "5.0L Coyote oil consumption (2011-2014) — community-acknowledged, no dedicated Ford TSB",
     vehicleScope: COYOTE_VEHICLE_ID,
     systemTags: ["engine_mechanical"],
     issueAreaIds: [],
     partTags: ["pcv_valve"],
     symptomTags: ["oil_consumption", "blue_smoke"],
     aliases: [
-      "TSB 13-7-1",
       "Coyote oil consumption",
       "5.0L oil burn",
+      "Gen 1 Coyote oil",
       "1 quart per 3000",
       "oil consumption test",
+      "TSB 11-7-7 (unauthorized mods)",
+      "TSB 19-2365 (Gen 3 only, NOT 12th-gen)",
     ],
     excerpt:
-      "TSB 13-7-1 (July 2013): Customer complaints of excessive oil consumption " +
-      "on 5.0L Coyote V8. Ford spec: up to 1 US quart per 3,000 mi is considered " +
-      "within normal range and not a warranty defect. Procedure: perform an " +
-      "oil consumption test — record level, drive 3,000 mi, recheck. If " +
-      "consumption exceeds 1 qt per 3,000 mi, inspect PCV system first (stuck-" +
-      "open PCV valve, oil pulled through breather), then valve cover gasket " +
-      "and oil separator. If PCV is OK and external leaks are ruled out, " +
-      "compression and leak-down testing is the next step before considering " +
-      "ring or seal replacement.",
+      "IMPORTANT: There is NO Ford TSB specifically addressing oil consumption " +
+      "on the 2011-2014 (Gen 1) 5.0L Coyote in the 12th-gen F-150. The famous " +
+      "TSB 19-2365 covers the 2018-2020 Gen 3 Coyote ONLY and does not apply. " +
+      "Some 2011-2012 Coyotes (both F-150 and Mustang) burned more oil than " +
+      "owners expected — Ford's official position via Service Manual is that " +
+      "up to 1 US quart per 3,000 mi is within normal spec. Community " +
+      "consensus on Gen 1 oil burn: (1) PCV system pulls oil mist into intake " +
+      "(install Mishimoto / JLT catch can), (2) early-production piston rings " +
+      "can take longer to fully seat (often improves by 30K), (3) Mustang GT " +
+      "owners filed lawsuits but the 5.0 F-150 was not part of major class " +
+      "action. Diagnostic procedure: oil consumption test (record level → " +
+      "drive 3,000 mi → recheck), inspect PCV valve, inspect oil separator " +
+      "behind intake manifold. If consumption exceeds 1 qt/3000 mi and PCV is " +
+      "good, compression + leak-down testing is the next step.",
     inspectionHint:
       "Before condemning rings or seals, inspect the PCV valve and oil " +
       "separator on the back of the intake manifold. A stuck-open PCV is the " +
-      "#1 cause of mystery oil consumption on Coyote.",
-    sourceCitationKey: "ford-tsb-13-7-1",
+      "#1 cause of mystery oil consumption on Gen 1 Coyote.",
+    sourceCitationKey: "coyote-oil-consumption-2011-2014",
   },
   {
     id: "ford-tsb-14-0184-coyote-oil-consumption-update", // VERIFY exact TSB number
