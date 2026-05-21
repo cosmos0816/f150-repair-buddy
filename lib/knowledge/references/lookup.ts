@@ -63,6 +63,8 @@ import { HVAC_DEEP_REFERENCES } from "@/lib/knowledge/references/hvac-deep";
 import { TPMS_KEYFOB_REFERENCES } from "@/lib/knowledge/references/tpms-keyfob";
 import { COLD_WEATHER_PREP_REFERENCES } from "@/lib/knowledge/references/cold-weather-prep";
 import { BRAKE_SYSTEM_DEEP_REFERENCES } from "@/lib/knowledge/references/brake-system-deep";
+import { FUEL_SYSTEM_DEEP_REFERENCES } from "@/lib/knowledge/references/fuel-system-deep";
+import { TRANSMISSION_6R80_DEEP_REFERENCES } from "@/lib/knowledge/references/transmission-6r80-deep";
 import type { TruckReferenceRecord, TruckReferenceSearchResult, TruckReferenceSourceType } from "@/lib/knowledge/references/types";
 
 const TRUCK_REFERENCE_RECORDS: TruckReferenceRecord[] = [
@@ -131,6 +133,8 @@ const TRUCK_REFERENCE_RECORDS: TruckReferenceRecord[] = [
   ...TPMS_KEYFOB_REFERENCES,
   ...COLD_WEATHER_PREP_REFERENCES,
   ...BRAKE_SYSTEM_DEEP_REFERENCES,
+  ...FUEL_SYSTEM_DEEP_REFERENCES,
+  ...TRANSMISSION_6R80_DEEP_REFERENCES,
 ];
 
 function normalize(value: string) {

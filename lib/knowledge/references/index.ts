@@ -63,4 +63,6 @@ export * from "@/lib/knowledge/references/hvac-deep";
 export * from "@/lib/knowledge/references/tpms-keyfob";
 export * from "@/lib/knowledge/references/cold-weather-prep";
 export * from "@/lib/knowledge/references/brake-system-deep";
+export * from "@/lib/knowledge/references/fuel-system-deep";
+export * from "@/lib/knowledge/references/transmission-6r80-deep";
 export * from "@/lib/knowledge/references/lookup";
