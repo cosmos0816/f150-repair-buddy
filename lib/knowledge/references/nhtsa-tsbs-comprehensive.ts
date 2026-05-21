@@ -13,23 +13,44 @@
 // - Suspension, steering, EPB, AdvanceTrac, TPMS TSBs
 // - SYNC infotainment software TSBs
 //
-// Verification notes (UPDATED 2026-05-21):
-// - Spot-check via WebSearch revealed that several TSB NUMBERS in this file
-//   are SYNTHESIZED / WRONG, but the underlying ISSUE descriptions are real.
-//   Confirmed wrong numbers (corrected below where possible):
-//     * 14-0067 (6R80 harsh shift) → real number is 13-6-8 (high gear engagement),
-//       plus later TSB 16-0015 / 15-0142 for hard-shift updates
-//     * 14-0210 (EcoBoost intercooler condensation) → real number is 13-8-1
-//       (also seen as 13-08-01) and 12-10-19 (earlier deflector plate)
-//     * 13-7-1 (Coyote oil consumption) → the canonical Coyote oil-consumption
-//       TSB is 19-2365 (for 2018-2020 5.0L); 2011-2012 Coyote did not have a
-//       dedicated oil-consumption TSB beyond TSB 11-7-7 which is about
-//       unauthorized modifications, not oil burn.
-// - All other entries below still carry `// VERIFY` and should be treated as
-//   plausible-but-not-authoritative until cross-checked against Ford eTIS or
-//   nhtsa.gov manufacturer-communication search.
-// - The `partTags` array uses only TruckPartId/ExtendedTruckPartId values from
-//   lib/knowledge/types.ts.
+// ⚠️  VERIFICATION STATUS (updated 2026-05-21):
+//
+// Spot-check via WebSearch on six TSB numbers revealed that MOST TSB NUMBERS
+// in this file appear to be SYNTHESIZED — the underlying ISSUE descriptions
+// are real and field-documented, but the specific Ford TSB numbers do not
+// match anything in publicly searchable Ford / NHTSA documentation.
+//
+// Verified-and-corrected entries (3):
+//   ✓ 6R80 harsh shift: was "14-0067", real is TSB 13-6-8 (later 16-0015/15-0142)
+//   ✓ EcoBoost intercooler condensation: was "14-0210", real is TSB 13-8-1
+//     (earlier deflector-plate TSB is 12-10-19)
+//   ✓ Coyote oil consumption: was "13-7-1", NO dedicated Ford TSB exists for
+//     2011-2014 Gen 1 Coyote. The famous "19-2365" is Gen 3 (2018-2020) only.
+//
+// Spot-checked-and-likely-wrong (3, not yet corrected — issue descriptions
+// remain useful as repair-note content):
+//   ✗ "12-8-11" blend door: real F-150 blend-door TSBs are 21-2199 / 23-2115
+//     for 2015-2020, not 12th-gen
+//   ✗ "12-7-12" tailgate latch: real F-150 latch TSBs are 15-0052 / 16-0155
+//     for 2015+, not 12th-gen
+//   ≈ "10-13-1" lower control arm clunk: the described fix (Teflon lube +
+//     toothed washers at rear LCA pivot) matches a real Ford procedure but
+//     the exact TSB number could not be confirmed
+//
+// Treatment for downstream consumers:
+//   - For UI: display TSB-numbered entries as "Community-documented (TSB
+//     number unverified)" rather than "Per Ford TSB XX-XX". The content is
+//     useful repair guidance, but the authority claim needs verification.
+//   - For Gemini Live tool surface: it's fine to surface the issue and fix
+//     description, but the tool's response should not assert the TSB number
+//     unless cross-checked.
+//
+// To fully verify: each TSB number would need to be searched on Ford's eTIS
+// (Electronic Technical Information System, dealer login required) or NHTSA
+// Manufacturer Communications database (search by year + make + VIN).
+//
+// The `partTags` array uses only TruckPartId/ExtendedTruckPartId values from
+// lib/knowledge/types.ts.
 // - The `partTags` array uses only TruckPartId values defined in
 //   lib/knowledge/types.ts. Where a TSB concerns parts that are not in
 //   the existing TruckPartId catalog (e.g. blend door actuator, sway bar
