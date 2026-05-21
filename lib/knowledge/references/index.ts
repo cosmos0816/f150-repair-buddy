@@ -54,4 +54,13 @@ export * from "@/lib/knowledge/references/community-misdiagnoses";
 export * from "@/lib/knowledge/references/svt-raptor-gen1";
 export * from "@/lib/knowledge/references/interior-parts";
 // color-paint-codes is re-exported via vehicles/index.ts already (cross-boundary access)
+// ── Phase 3 expansion (per-engine deep + subsystem deep) ──
+export * from "@/lib/knowledge/references/triton-46-2v-specs";
+export * from "@/lib/knowledge/references/triton-46-3v-specs";
+export * from "@/lib/knowledge/references/v6-37-tivct-specs";
+export * from "@/lib/knowledge/references/recall-campaigns-comprehensive";
+export * from "@/lib/knowledge/references/hvac-deep";
+export * from "@/lib/knowledge/references/tpms-keyfob";
+export * from "@/lib/knowledge/references/cold-weather-prep";
+export * from "@/lib/knowledge/references/brake-system-deep";
 export * from "@/lib/knowledge/references/lookup";

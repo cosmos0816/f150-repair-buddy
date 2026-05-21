@@ -54,6 +54,15 @@ import { SVT_RAPTOR_GEN1_REFERENCES } from "@/lib/knowledge/references/svt-rapto
 import { INTERIOR_PARTS_REFERENCES } from "@/lib/knowledge/references/interior-parts";
 import { COLOR_PAINT_CODE_REFERENCES } from "@/lib/knowledge/references/color-paint-codes";
 import { WINDOW_STICKER_REFERENCES } from "@/lib/knowledge/vehicles/option-decoder";
+// ── Phase 3 expansion: per-engine deep dives + subsystem deep dives ──
+import { TRITON_46_2V_REFERENCES } from "@/lib/knowledge/references/triton-46-2v-specs";
+import { TRITON_46_3V_REFERENCES } from "@/lib/knowledge/references/triton-46-3v-specs";
+import { V6_37_TIVCT_REFERENCES } from "@/lib/knowledge/references/v6-37-tivct-specs";
+import { RECALL_CAMPAIGNS_COMPREHENSIVE_REFERENCES } from "@/lib/knowledge/references/recall-campaigns-comprehensive";
+import { HVAC_DEEP_REFERENCES } from "@/lib/knowledge/references/hvac-deep";
+import { TPMS_KEYFOB_REFERENCES } from "@/lib/knowledge/references/tpms-keyfob";
+import { COLD_WEATHER_PREP_REFERENCES } from "@/lib/knowledge/references/cold-weather-prep";
+import { BRAKE_SYSTEM_DEEP_REFERENCES } from "@/lib/knowledge/references/brake-system-deep";
 import type { TruckReferenceRecord, TruckReferenceSearchResult, TruckReferenceSourceType } from "@/lib/knowledge/references/types";
 
 const TRUCK_REFERENCE_RECORDS: TruckReferenceRecord[] = [
@@ -113,6 +122,15 @@ const TRUCK_REFERENCE_RECORDS: TruckReferenceRecord[] = [
   ...INTERIOR_PARTS_REFERENCES,
   ...COLOR_PAINT_CODE_REFERENCES,
   ...WINDOW_STICKER_REFERENCES,
+  // ── Phase 3 expansion ──
+  ...TRITON_46_2V_REFERENCES,
+  ...TRITON_46_3V_REFERENCES,
+  ...V6_37_TIVCT_REFERENCES,
+  ...RECALL_CAMPAIGNS_COMPREHENSIVE_REFERENCES,
+  ...HVAC_DEEP_REFERENCES,
+  ...TPMS_KEYFOB_REFERENCES,
+  ...COLD_WEATHER_PREP_REFERENCES,
+  ...BRAKE_SYSTEM_DEEP_REFERENCES,
 ];
 
 function normalize(value: string) {
