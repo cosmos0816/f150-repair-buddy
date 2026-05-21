@@ -75,6 +75,121 @@ export type TruckPartId =
   | "tailgate_cable"
   | "tailgate_latch";
 
+/**
+ * Phase 4 expansion IDs — used by the wider TruckReferenceRecord but NOT by
+ * the strict truck/parts.ts / symptoms.ts / systems.ts / issue-rules.ts Records.
+ * Add entries to those Records when you want a full TruckPartDefinition etc.
+ */
+export type ExtendedTruckPartId =
+  | TruckPartId
+  // ── Fuel system parts ──
+  | "fuel_pump"
+  | "fuel_tank"
+  | "fuel_filter"
+  | "fuel_pressure_regulator"
+  | "fuel_rail"
+  | "evap_canister"
+  | "evap_vent_valve"
+  | "evap_purge_valve"
+  // ── Transmission parts ──
+  | "torque_converter"
+  | "valve_body"
+  | "shift_solenoid"
+  | "transmission_cooler"
+  | "transmission_pan"
+  | "transmission_filter"
+  | "transmission_mount"
+  | "tcc_solenoid"
+  // ── HVAC parts ──
+  | "blend_door_actuator"
+  | "climate_control_head"
+  | "hvac_blower_motor"
+  | "hvac_blower_resistor"
+  | "evaporator"
+  | "heater_core"
+  | "ac_compressor"
+  | "ac_condenser"
+  | "ac_drier"
+  | "ac_pressure_switch"
+  // ── Interior seat parts ──
+  | "seat_assembly"
+  | "seat_cushion"
+  | "seat_motor"
+  | "memory_seat_switch"
+  | "memory_seat_module"
+  | "seat_heater_element"
+  | "seat_cooler_blower"
+  | "seat_massage_motor"
+  | "seatbelt_assembly"
+  // ── Interior audio/tech ──
+  | "radio_head_unit"
+  | "sync_apim_module"
+  | "mft_screen"
+  | "amplifier"
+  | "speaker"
+  | "subwoofer"
+  | "antenna"
+  // ── Interior trim ──
+  | "steering_wheel"
+  | "steering_wheel_switch"
+  | "dash_trim_panel"
+  | "dash_pad"
+  | "instrument_cluster"
+  | "center_console"
+  | "headliner"
+  | "sun_visor"
+  | "door_panel"
+  | "armrest"
+  // ── Sunroof / glass ──
+  | "sunroof_assembly"
+  | "sunroof_motor"
+  | "sunroof_drain"
+  | "windshield"
+  | "window_regulator"
+  // ── Floor / cargo ──
+  | "carpet"
+  | "floor_mat"
+  | "kick_panel"
+  | "shift_knob"
+  // ── Aesthetic / body ──
+  | "grille"
+  | "running_board"
+  | "fender_flare"
+  | "light_bar"
+  | "wheel"
+  | "bug_deflector"
+  | "splash_guard"
+  | "mud_flap"
+  | "side_step"
+  | "hood_scoop"
+  | "tow_mirror"
+  // ── Lighting (aesthetic) ──
+  | "amber_drl_kit"
+  | "led_marker_light"
+  // ── Brake system parts ──
+  | "abs_module"
+  | "abs_hcu"
+  | "master_cylinder"
+  | "brake_booster"
+  | "wheel_speed_sensor"
+  | "parking_brake_actuator"
+  | "brake_rotor"
+  | "brake_pad"
+  | "brake_caliper"
+  // ── TPMS / keys ──
+  | "tpms_sensor"
+  | "key_fob"
+  | "key_blank"
+  | "ignition_switch"
+  // ── 4WD / IWE ──
+  | "iwe_solenoid"
+  | "front_diff_actuator"
+  | "front_locking_hub"
+  // ── Steering ──
+  | "power_steering_pump"
+  | "rack_and_pinion"
+  | "steering_column";
+
 export type TruckSymptomId =
   | "leak"
   | "rust"
@@ -101,6 +216,45 @@ export type TruckSymptomId =
   | "oil_consumption"
   | "white_smoke"
   | "blue_smoke";
+
+export type ExtendedTruckSymptomId =
+  | TruckSymptomId
+  // ── Transmission symptoms ──
+  | "shift_flare"
+  | "shift_shudder"
+  | "harsh_shift"
+  | "late_shift"
+  | "slipping"
+  | "no_drive"
+  // ── Engine / starting ──
+  | "no_start"
+  | "stall"
+  | "hesitation"
+  | "surge"
+  | "long_crank"
+  // ── HVAC symptoms ──
+  | "dash_click"
+  | "dash_grind"
+  | "no_heat"
+  | "no_cold_ac"
+  | "weak_airflow"
+  // ── Warning indicators ──
+  | "check_engine_light"
+  | "abs_warning_light"
+  | "traction_disabled"
+  | "tpms_light"
+  | "battery_light"
+  | "oil_pressure_light"
+  // ── Brake symptoms ──
+  | "spongy_pedal"
+  | "hard_pedal"
+  | "brake_pulsation"
+  | "grinding_brakes"
+  // ── Steering / handling ──
+  | "shimmy"
+  | "loose_steering"
+  | "pulls_left"
+  | "pulls_right";
 
 export type TruckInspectionTargetId =
   | "front_accessory_drive_path"
@@ -167,6 +321,28 @@ export type TruckIssueAreaId =
   | "tailgate_mechanism_wear"
   | "rear_window_leak";
 
+export type ExtendedTruckIssueAreaId =
+  | TruckIssueAreaId
+  // ── Phase 4 issue areas ──
+  | "transmission_shift_quality"
+  | "transmission_tcc_apply"
+  | "transmission_fluid_degradation"
+  | "fuel_pressure_loss"
+  | "evap_leak_or_vent"
+  | "throttle_body_carbon"
+  | "maf_sensor_contamination"
+  | "blend_door_failure"
+  | "ac_compressor_failure"
+  | "heater_core_leak"
+  | "electric_parking_brake_failure"
+  | "tpms_sensor_failure"
+  | "key_fob_pairing"
+  | "wheel_speed_sensor_corrosion"
+  | "abs_module_fault"
+  | "running_board_failure"
+  | "amber_light_wiring"
+  | "front_diff_iwe_grind";
+
 export type TruckSystemId =
   | "engine_mechanical"
   | "accessory_drive"
@@ -191,6 +367,20 @@ export type TruckSystemId =
   | "turbo_boost"
   // ── Bed & cab systems ──
   | "bed_cargo";
+
+export type ExtendedTruckSystemId =
+  | TruckSystemId
+  // ── Phase 4 subsystems ──
+  | "fuel_system"
+  | "transmission"
+  | "hvac"
+  | "audio_infotainment"
+  | "safety_restraint"
+  | "exterior_body"
+  | "wheels_tires"
+  | "tpms_keyfob"
+  | "parking_brake"
+  | "off_road";
 
 export type TruckEvidenceCueSource =
   | "bookmark"

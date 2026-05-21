@@ -1,5 +1,10 @@
 import type { SupportedVehicleId } from "@/lib/config/app-config";
-import type { TruckIssueAreaId, TruckPartId, TruckSymptomId, TruckSystemId } from "@/lib/knowledge/types";
+import type {
+  ExtendedTruckIssueAreaId,
+  ExtendedTruckPartId,
+  ExtendedTruckSymptomId,
+  ExtendedTruckSystemId,
+} from "@/lib/knowledge/types";
 
 export type TruckReferenceVehicleScope = SupportedVehicleId;
 
@@ -18,10 +23,10 @@ export interface TruckReferenceRecord {
   sourceLabel: string;
   title: string;
   vehicleScope: TruckReferenceVehicleScope;
-  systemTags: TruckSystemId[];
-  issueAreaIds: TruckIssueAreaId[];
-  partTags: TruckPartId[];
-  symptomTags: TruckSymptomId[];
+  systemTags: ExtendedTruckSystemId[];
+  issueAreaIds: ExtendedTruckIssueAreaId[];
+  partTags: ExtendedTruckPartId[];
+  symptomTags: ExtendedTruckSymptomId[];
   aliases: string[];
   excerpt: string;
   inspectionHint?: string;
